@@ -1,0 +1,682 @@
+[
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "css/style.css"
+    },
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "img/logo_studioxxi_transparente.png"
+    },
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "servicos.html"
+    },
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "agendamentos.html"
+    },
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "equipe.html"
+    },
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "galeria.html"
+    },
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "avaliacoes.html"
+    },
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "sobre.html"
+    },
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "contato.html"
+    },
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "login.html"
+    },
+    {
+        "pagina":  "agendamentos.html",
+        "existe":  true,
+        "referencia":  "minha-conta.html"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "css/style.css"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "img/logo_studioxxi_transparente.png"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "servicos.html"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "agendamentos.html"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "equipe.html"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "galeria.html"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "avaliacoes.html"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "sobre.html"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "contato.html"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "login.html"
+    },
+    {
+        "pagina":  "avaliacoes.html",
+        "existe":  true,
+        "referencia":  "minha-conta.html"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "css/style.css"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "img/logo_studioxxi_transparente.png"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "servicos.html"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "agendamentos.html"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "equipe.html"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "galeria.html"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "avaliacoes.html"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "sobre.html"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "contato.html"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "login.html"
+    },
+    {
+        "pagina":  "contato.html",
+        "existe":  true,
+        "referencia":  "minha-conta.html"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "css/style.css"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "img/logo_studioxxi_transparente.png"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "servicos.html"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "agendamentos.html"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "equipe.html"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "galeria.html"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "avaliacoes.html"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "sobre.html"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "contato.html"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "login.html"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "minha-conta.html"
+    },
+    {
+        "pagina":  "equipe.html",
+        "existe":  true,
+        "referencia":  "sobre.html"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "css/style.css"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "img/logo_studioxxi_transparente.png"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "servicos.html"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "agendamentos.html"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "equipe.html"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "galeria.html"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "avaliacoes.html"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "sobre.html"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "contato.html"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "login.html"
+    },
+    {
+        "pagina":  "galeria.html",
+        "existe":  true,
+        "referencia":  "minha-conta.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "css/style.css"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "img/logo_studioxxi_transparente.png"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "servicos.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "agendamentos.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "equipe.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "galeria.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "avaliacoes.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "sobre.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "contato.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "login.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "minha-conta.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "login.html"
+    },
+    {
+        "pagina":  "home.html",
+        "existe":  true,
+        "referencia":  "servicos.html"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "css/style.css"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "img/logo_studioxxi_transparente.png"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "servicos.html"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "agendamentos.html"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "equipe.html"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "galeria.html"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "avaliacoes.html"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "sobre.html"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "contato.html"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "login.html"
+    },
+    {
+        "pagina":  "login.html",
+        "existe":  true,
+        "referencia":  "minha-conta.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "css/style.css"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "img/logo_studioxxi_transparente.png"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "servicos.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "agendamentos.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "equipe.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "galeria.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "avaliacoes.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "sobre.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "contato.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "login.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "minha-conta.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "agendamentos.html"
+    },
+    {
+        "pagina":  "minha-conta.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "css/style.css"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "img/logo_studioxxi_transparente.png"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "servicos.html"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "agendamentos.html"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "equipe.html"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "galeria.html"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "avaliacoes.html"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "sobre.html"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "contato.html"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "login.html"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "minha-conta.html"
+    },
+    {
+        "pagina":  "servicos.html",
+        "existe":  true,
+        "referencia":  "login.html"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "css/style.css"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "img/logo_studioxxi_transparente.png"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "home.html"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "servicos.html"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "agendamentos.html"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "equipe.html"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "galeria.html"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "avaliacoes.html"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "sobre.html"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "contato.html"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "login.html"
+    },
+    {
+        "pagina":  "sobre.html",
+        "existe":  true,
+        "referencia":  "minha-conta.html"
+    }
+]

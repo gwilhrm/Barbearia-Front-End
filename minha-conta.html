@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha conta | Studio XXI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="home.html" aria-label="Página inicial">
+            <img src="img/logo_studioxxi_transparente.png" alt="Logo da Barbearia Studio XXI">
+        </a>
+
+        <nav aria-label="Menu principal">
+            <a href="home.html">Home</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="agendamentos.html">Agendamentos</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="avaliacoes.html">Avaliações</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+            <a href="login.html">Entrar</a>
+            <a href="minha-conta.html" aria-current="page">Minha conta</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Faixa de título (igual em todas as páginas). -->
+        <section class="faixa-titulo">
+            <h1>Minha conta</h1>
+            <p>Seus dados e seus agendamentos.</p>
+        </section>
+
+        <!-- Sem servidor, esta página mostra sempre o mesmo exemplo fictício. -->
+        <p class="aviso">Exemplo do que o cliente vê depois de entrar. Os dados abaixo são fictícios.</p>
+
+        <!-- Dados do próprio cliente. Pela LGPD, ele nunca vê dados de outros clientes. -->
+        <section class="bloco">
+            <h2>Meus dados</h2>
+            <p><strong>Nome:</strong> João Exemplo</p>
+            <p><strong>E-mail:</strong> joao.exemplo@email.com</p>
+            <p><strong>Telefone:</strong> (11) 91234-5678</p>
+        </section>
+
+        <!-- Agendamentos do próprio cliente, com a situação de cada um. -->
+        <section>
+            <table>
+                <caption>Meus agendamentos</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Dia</th>
+                        <th scope="col">Horário</th>
+                        <th scope="col">Serviços</th>
+                        <th scope="col">Situação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>13/11/2026</td>
+                        <td>10h30</td>
+                        <td>Corte + barba</td>
+                        <td>AGENDADO</td>
+                    </tr>
+                    <tr>
+                        <td>24/10/2026</td>
+                        <td>15h00</td>
+                        <td>Corte</td>
+                        <td>CONCLUÍDO</td>
+                    </tr>
+                    <tr>
+                        <td>15/10/2026</td>
+                        <td>19h00</td>
+                        <td>Sobrancelha</td>
+                        <td>CANCELADO</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="botao" href="agendamentos.html">Novo agendamento</a>
+            <a class="botao" href="home.html">Sair</a>
+        </section>
+    </main>
+
+    <!-- Rodapé igual em todas as páginas. -->
+    <footer>
+        <p>Barbearia Studio XXI · R. Maciel Monteiro, 526, Sala 03 · Vila Santa Teresa, São Paulo - SP</p>
+        <p>Segunda a quinta: 14h às 21h · Sexta e sábado: 10h às 21h · Domingo: fechado</p>
+        <p>Pagamento: Pix e cartões</p>
+        <p>Projeto acadêmico de Desenvolvimento Front-End para Web.</p>
+    </footer>
+</body>
+</html>

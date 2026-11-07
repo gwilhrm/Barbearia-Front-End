@@ -1,0 +1,1666 @@
+{
+  "date": "2026-10-04",
+  "root_pages": [
+    "agendamentos.html",
+    "avaliacoes.html",
+    "clientes.html",
+    "contato.html",
+    "equipe.html",
+    "galeria.html",
+    "home.html",
+    "login.html",
+    "servicos.html",
+    "sobre.html"
+  ],
+  "pages": [
+    {
+      "file": "agendamentos.html",
+      "body_has_text": true,
+      "h1_count": 1,
+      "forms": [
+        {
+          "line": 40,
+          "action": "",
+          "method": ""
+        }
+      ],
+      "inputs": [
+        {
+          "line": 42,
+          "type": "text",
+          "required": true,
+          "name": "nome_agendamento",
+          "id": "nome_agendamento",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 46,
+          "type": "text",
+          "required": true,
+          "name": "sobrenome_agendamento",
+          "id": "sobrenome_agendamento",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 50,
+          "type": "tel",
+          "required": true,
+          "name": "telefone_agendamento",
+          "id": "telefone_agendamento",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 54,
+          "type": "datetime-local",
+          "required": false,
+          "name": "data_agendamento",
+          "id": "data_agendamento",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 57,
+          "type": "submit",
+          "required": false,
+          "name": null,
+          "id": null,
+          "pattern": null,
+          "min": null,
+          "max": null
+        }
+      ],
+      "labels": 4,
+      "images": [
+        {
+          "line": 12,
+          "src": "img/logo_studioxxi_transparente.png",
+          "alt": "Logo da Barbearia XXI"
+        }
+      ],
+      "iframe_count": 0,
+      "video_count": 0,
+      "audio_count": 0,
+      "script_count": 0,
+      "issues": [
+        {
+          "line": 40,
+          "problem": "invalid_form_method",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "file": "avaliacoes.html",
+      "body_has_text": true,
+      "h1_count": 1,
+      "forms": [],
+      "inputs": [],
+      "labels": 0,
+      "images": [
+        {
+          "line": 12,
+          "src": "img/logo_studioxxi_transparente.png",
+          "alt": "Logo da Barbearia XXI"
+        }
+      ],
+      "iframe_count": 0,
+      "video_count": 0,
+      "audio_count": 0,
+      "script_count": 0,
+      "issues": []
+    },
+    {
+      "file": "clientes.html",
+      "body_has_text": true,
+      "h1_count": 1,
+      "forms": [
+        {
+          "line": 37,
+          "action": "",
+          "method": ""
+        }
+      ],
+      "inputs": [
+        {
+          "line": 40,
+          "type": "text",
+          "required": true,
+          "name": null,
+          "id": "id_nome",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 45,
+          "type": "email",
+          "required": true,
+          "name": null,
+          "id": "id_email",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 50,
+          "type": "tel",
+          "required": true,
+          "name": null,
+          "id": "id_tel",
+          "pattern": null,
+          "min": null,
+          "max": null
+        }
+      ],
+      "labels": 3,
+      "images": [
+        {
+          "line": 12,
+          "src": "img/logo_studioxxi_transparente.png",
+          "alt": "Logo da Barbearia XXI"
+        }
+      ],
+      "iframe_count": 0,
+      "video_count": 0,
+      "audio_count": 0,
+      "script_count": 0,
+      "issues": [
+        {
+          "line": 37,
+          "problem": "invalid_form_method",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "file": "contato.html",
+      "body_has_text": true,
+      "h1_count": 1,
+      "forms": [
+        {
+          "line": 81,
+          "action": "",
+          "method": ""
+        }
+      ],
+      "inputs": [
+        {
+          "line": 84,
+          "type": "radio",
+          "required": false,
+          "name": "forma_contato",
+          "id": "contato_email",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 88,
+          "type": "radio",
+          "required": false,
+          "name": "forma_contato",
+          "id": "contato_telefone",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 92,
+          "type": "radio",
+          "required": false,
+          "name": "forma_contato",
+          "id": "contato_whats",
+          "pattern": null,
+          "min": null,
+          "max": null
+        }
+      ],
+      "labels": 5,
+      "images": [
+        {
+          "line": 12,
+          "src": "img/logo_studioxxi_transparente.png",
+          "alt": "Logo da Barbearia XXI"
+        }
+      ],
+      "iframe_count": 1,
+      "video_count": 0,
+      "audio_count": 0,
+      "script_count": 0,
+      "issues": [
+        {
+          "line": 81,
+          "problem": "invalid_form_method",
+          "value": ""
+        },
+        {
+          "line": 78,
+          "problem": "iframe_without_title"
+        }
+      ]
+    },
+    {
+      "file": "docs/orcamento_hospedagem.html",
+      "body_has_text": true,
+      "h1_count": 1,
+      "forms": [],
+      "inputs": [],
+      "labels": 0,
+      "images": [],
+      "iframe_count": 0,
+      "video_count": 0,
+      "audio_count": 0,
+      "script_count": 0,
+      "issues": []
+    },
+    {
+      "file": "equipe.html",
+      "body_has_text": true,
+      "h1_count": 1,
+      "forms": [],
+      "inputs": [],
+      "labels": 0,
+      "images": [
+        {
+          "line": 12,
+          "src": "img/logo_studioxxi_transparente.png",
+          "alt": "Logo da Barbearia XXI"
+        },
+        {
+          "line": 31,
+          "src": "SEU_LINK_DA_IMAGEM",
+          "alt": "Descrição"
+        }
+      ],
+      "iframe_count": 0,
+      "video_count": 0,
+      "audio_count": 0,
+      "script_count": 0,
+      "issues": [
+        {
+          "line": 31,
+          "problem": "unmatched_closing_tag",
+          "tag": "a"
+        }
+      ]
+    },
+    {
+      "file": "galeria.html",
+      "body_has_text": true,
+      "h1_count": 1,
+      "forms": [],
+      "inputs": [],
+      "labels": 0,
+      "images": [
+        {
+          "line": 12,
+          "src": "img/logo_studioxxi_transparente.png",
+          "alt": "Logo da Barbearia XXI"
+        }
+      ],
+      "iframe_count": 0,
+      "video_count": 0,
+      "audio_count": 0,
+      "script_count": 0,
+      "issues": []
+    },
+    {
+      "file": "home.html",
+      "body_has_text": true,
+      "h1_count": 1,
+      "forms": [],
+      "inputs": [],
+      "labels": 0,
+      "images": [
+        {
+          "line": 12,
+          "src": "img/logo_studioxxi_transparente.png",
+          "alt": "Logo da Barbearia XXI"
+        }
+      ],
+      "iframe_count": 0,
+      "video_count": 0,
+      "audio_count": 0,
+      "script_count": 0,
+      "issues": []
+    },
+    {
+      "file": "login.html",
+      "body_has_text": true,
+      "h1_count": 1,
+      "forms": [
+        {
+          "line": 36,
+          "action": "",
+          "method": ""
+        }
+      ],
+      "inputs": [
+        {
+          "line": 40,
+          "type": "text",
+          "required": true,
+          "name": null,
+          "id": "id_nome",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 45,
+          "type": "text",
+          "required": true,
+          "name": null,
+          "id": "id_sobrenome",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 50,
+          "type": "password",
+          "required": true,
+          "name": null,
+          "id": "id_senha",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 55,
+          "type": "password",
+          "required": true,
+          "name": null,
+          "id": "id_conf_senha",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 60,
+          "type": "email",
+          "required": true,
+          "name": null,
+          "id": "id_email",
+          "pattern": null,
+          "min": null,
+          "max": null
+        },
+        {
+          "line": 65,
+          "type": "tel",
+          "required": true,
+          "name": null,
+          "id": "id_tel",
+          "pattern": null,
+          "min": null,
+          "max": null
+        }
+      ],
+      "labels": 6,
+      "images": [
+        {
+          "line": 12,
+          "src": "img/logo_studioxxi_transparente.png",
+          "alt": "Logo da Barbearia XXI"
+        }
+      ],
+      "iframe_count": 0,
+      "video_count": 0,
+      "audio_count": 0,
+      "script_count": 0,
+      "issues": [
+        {
+          "line": 36,
+          "problem": "invalid_form_method",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "file": "servicos.html",
+      "body_has_text": true,
+      "h1_count": 1,
+      "forms": [],
+      "inputs": [],
+      "labels": 0,
+      "images": [
+        {
+          "line": 12,
+          "src": "img/logo_studioxxi_transparente.png",
+          "alt": "Logo da Barbearia XXI"
+        },
+        {
+          "line": 40,
+          "src": null,
+          "alt": null
+        },
+        {
+          "line": 48,
+          "src": null,
+          "alt": null
+        },
+        {
+          "line": 56,
+          "src": null,
+          "alt": null
+        },
+        {
+          "line": 63,
+          "src": null,
+          "alt": null
+        },
+        {
+          "line": 71,
+          "src": null,
+          "alt": null
+        },
+        {
+          "line": 78,
+          "src": null,
+          "alt": null
+        }
+      ],
+      "iframe_count": 0,
+      "video_count": 0,
+      "audio_count": 0,
+      "script_count": 0,
+      "issues": [
+        {
+          "line": 40,
+          "problem": "image_without_src"
+        },
+        {
+          "line": 40,
+          "problem": "image_without_alt"
+        },
+        {
+          "line": 48,
+          "problem": "image_without_src"
+        },
+        {
+          "line": 48,
+          "problem": "image_without_alt"
+        },
+        {
+          "line": 56,
+          "problem": "image_without_src"
+        },
+        {
+          "line": 56,
+          "problem": "image_without_alt"
+        },
+        {
+          "line": 63,
+          "problem": "image_without_src"
+        },
+        {
+          "line": 63,
+          "problem": "image_without_alt"
+        },
+        {
+          "line": 71,
+          "problem": "image_without_src"
+        },
+        {
+          "line": 71,
+          "problem": "image_without_alt"
+        },
+        {
+          "line": 78,
+          "problem": "image_without_src"
+        },
+        {
+          "line": 78,
+          "problem": "image_without_alt"
+        }
+      ]
+    },
+    {
+      "file": "sobre.html",
+      "body_has_text": true,
+      "h1_count": 1,
+      "forms": [],
+      "inputs": [],
+      "labels": 0,
+      "images": [
+        {
+          "line": 12,
+          "src": "img/logo_studioxxi_transparente.png",
+          "alt": "Logo da Barbearia XXI"
+        }
+      ],
+      "iframe_count": 0,
+      "video_count": 0,
+      "audio_count": 0,
+      "script_count": 0,
+      "issues": []
+    }
+  ],
+  "references": [
+    {
+      "file": "agendamentos.html",
+      "line": 7,
+      "tag": "link",
+      "attribute": "href",
+      "value": "css/style.css",
+      "exists": true
+    },
+    {
+      "file": "agendamentos.html",
+      "line": 11,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "agendamentos.html",
+      "line": 12,
+      "tag": "img",
+      "attribute": "src",
+      "value": "img/logo_studioxxi_transparente.png",
+      "exists": true
+    },
+    {
+      "file": "agendamentos.html",
+      "line": 16,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "agendamentos.html",
+      "line": 17,
+      "tag": "a",
+      "attribute": "href",
+      "value": "clientes.html",
+      "exists": true
+    },
+    {
+      "file": "agendamentos.html",
+      "line": 18,
+      "tag": "a",
+      "attribute": "href",
+      "value": "agendamentos.html",
+      "exists": true
+    },
+    {
+      "file": "agendamentos.html",
+      "line": 19,
+      "tag": "a",
+      "attribute": "href",
+      "value": "servicos.html",
+      "exists": true
+    },
+    {
+      "file": "agendamentos.html",
+      "line": 20,
+      "tag": "a",
+      "attribute": "href",
+      "value": "equipe.html",
+      "exists": true
+    },
+    {
+      "file": "agendamentos.html",
+      "line": 21,
+      "tag": "a",
+      "attribute": "href",
+      "value": "galeria.html",
+      "exists": true
+    },
+    {
+      "file": "agendamentos.html",
+      "line": 22,
+      "tag": "a",
+      "attribute": "href",
+      "value": "avaliacoes.html",
+      "exists": true
+    },
+    {
+      "file": "agendamentos.html",
+      "line": 23,
+      "tag": "a",
+      "attribute": "href",
+      "value": "contato.html",
+      "exists": true
+    },
+    {
+      "file": "agendamentos.html",
+      "line": 24,
+      "tag": "a",
+      "attribute": "href",
+      "value": "sobre.html",
+      "exists": true
+    },
+    {
+      "file": "agendamentos.html",
+      "line": 25,
+      "tag": "a",
+      "attribute": "href",
+      "value": "login.html",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 7,
+      "tag": "link",
+      "attribute": "href",
+      "value": "css/style.css",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 11,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 12,
+      "tag": "img",
+      "attribute": "src",
+      "value": "img/logo_studioxxi_transparente.png",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 16,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 17,
+      "tag": "a",
+      "attribute": "href",
+      "value": "clientes.html",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 18,
+      "tag": "a",
+      "attribute": "href",
+      "value": "agendamentos.html",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 19,
+      "tag": "a",
+      "attribute": "href",
+      "value": "servicos.html",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 20,
+      "tag": "a",
+      "attribute": "href",
+      "value": "equipe.html",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 21,
+      "tag": "a",
+      "attribute": "href",
+      "value": "galeria.html",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 22,
+      "tag": "a",
+      "attribute": "href",
+      "value": "avaliacoes.html",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 23,
+      "tag": "a",
+      "attribute": "href",
+      "value": "contato.html",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 24,
+      "tag": "a",
+      "attribute": "href",
+      "value": "sobre.html",
+      "exists": true
+    },
+    {
+      "file": "avaliacoes.html",
+      "line": 25,
+      "tag": "a",
+      "attribute": "href",
+      "value": "login.html",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 7,
+      "tag": "link",
+      "attribute": "href",
+      "value": "css/style.css",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 11,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 12,
+      "tag": "img",
+      "attribute": "src",
+      "value": "img/logo_studioxxi_transparente.png",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 16,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 17,
+      "tag": "a",
+      "attribute": "href",
+      "value": "clientes.html",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 18,
+      "tag": "a",
+      "attribute": "href",
+      "value": "agendamentos.html",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 19,
+      "tag": "a",
+      "attribute": "href",
+      "value": "servicos.html",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 20,
+      "tag": "a",
+      "attribute": "href",
+      "value": "equipe.html",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 21,
+      "tag": "a",
+      "attribute": "href",
+      "value": "galeria.html",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 22,
+      "tag": "a",
+      "attribute": "href",
+      "value": "avaliacoes.html",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 23,
+      "tag": "a",
+      "attribute": "href",
+      "value": "contato.html",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 24,
+      "tag": "a",
+      "attribute": "href",
+      "value": "sobre.html",
+      "exists": true
+    },
+    {
+      "file": "clientes.html",
+      "line": 25,
+      "tag": "a",
+      "attribute": "href",
+      "value": "login.html",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 7,
+      "tag": "link",
+      "attribute": "href",
+      "value": "css/style.css",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 11,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 12,
+      "tag": "img",
+      "attribute": "src",
+      "value": "img/logo_studioxxi_transparente.png",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 16,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 17,
+      "tag": "a",
+      "attribute": "href",
+      "value": "clientes.html",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 18,
+      "tag": "a",
+      "attribute": "href",
+      "value": "agendamentos.html",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 19,
+      "tag": "a",
+      "attribute": "href",
+      "value": "servicos.html",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 20,
+      "tag": "a",
+      "attribute": "href",
+      "value": "equipe.html",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 21,
+      "tag": "a",
+      "attribute": "href",
+      "value": "galeria.html",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 22,
+      "tag": "a",
+      "attribute": "href",
+      "value": "avaliacoes.html",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 23,
+      "tag": "a",
+      "attribute": "href",
+      "value": "contato.html",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 24,
+      "tag": "a",
+      "attribute": "href",
+      "value": "sobre.html",
+      "exists": true
+    },
+    {
+      "file": "contato.html",
+      "line": 25,
+      "tag": "a",
+      "attribute": "href",
+      "value": "login.html",
+      "exists": true
+    },
+    {
+      "file": "docs/orcamento_hospedagem.html",
+      "line": 14,
+      "tag": "a",
+      "attribute": "href",
+      "value": "../README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/orcamento_hospedagem.html",
+      "line": 15,
+      "tag": "a",
+      "attribute": "href",
+      "value": "../home.html",
+      "exists": true
+    },
+    {
+      "file": "docs/orcamento_hospedagem.html",
+      "line": 122,
+      "tag": "a",
+      "attribute": "href",
+      "value": "testes_validacoes.md",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 7,
+      "tag": "link",
+      "attribute": "href",
+      "value": "css/style.css",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 11,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 12,
+      "tag": "img",
+      "attribute": "src",
+      "value": "img/logo_studioxxi_transparente.png",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 16,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 17,
+      "tag": "a",
+      "attribute": "href",
+      "value": "clientes.html",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 18,
+      "tag": "a",
+      "attribute": "href",
+      "value": "agendamentos.html",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 19,
+      "tag": "a",
+      "attribute": "href",
+      "value": "servicos.html",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 20,
+      "tag": "a",
+      "attribute": "href",
+      "value": "equipe.html",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 21,
+      "tag": "a",
+      "attribute": "href",
+      "value": "galeria.html",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 22,
+      "tag": "a",
+      "attribute": "href",
+      "value": "avaliacoes.html",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 23,
+      "tag": "a",
+      "attribute": "href",
+      "value": "contato.html",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 24,
+      "tag": "a",
+      "attribute": "href",
+      "value": "sobre.html",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 25,
+      "tag": "a",
+      "attribute": "href",
+      "value": "login.html",
+      "exists": true
+    },
+    {
+      "file": "equipe.html",
+      "line": 31,
+      "tag": "img",
+      "attribute": "src",
+      "value": "SEU_LINK_DA_IMAGEM",
+      "exists": false
+    },
+    {
+      "file": "galeria.html",
+      "line": 7,
+      "tag": "link",
+      "attribute": "href",
+      "value": "css/style.css",
+      "exists": true
+    },
+    {
+      "file": "galeria.html",
+      "line": 11,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "galeria.html",
+      "line": 12,
+      "tag": "img",
+      "attribute": "src",
+      "value": "img/logo_studioxxi_transparente.png",
+      "exists": true
+    },
+    {
+      "file": "galeria.html",
+      "line": 16,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "galeria.html",
+      "line": 17,
+      "tag": "a",
+      "attribute": "href",
+      "value": "clientes.html",
+      "exists": true
+    },
+    {
+      "file": "galeria.html",
+      "line": 18,
+      "tag": "a",
+      "attribute": "href",
+      "value": "agendamentos.html",
+      "exists": true
+    },
+    {
+      "file": "galeria.html",
+      "line": 19,
+      "tag": "a",
+      "attribute": "href",
+      "value": "servicos.html",
+      "exists": true
+    },
+    {
+      "file": "galeria.html",
+      "line": 20,
+      "tag": "a",
+      "attribute": "href",
+      "value": "equipe.html",
+      "exists": true
+    },
+    {
+      "file": "galeria.html",
+      "line": 21,
+      "tag": "a",
+      "attribute": "href",
+      "value": "galeria.html",
+      "exists": true
+    },
+    {
+      "file": "galeria.html",
+      "line": 22,
+      "tag": "a",
+      "attribute": "href",
+      "value": "avaliacoes.html",
+      "exists": true
+    },
+    {
+      "file": "galeria.html",
+      "line": 23,
+      "tag": "a",
+      "attribute": "href",
+      "value": "contato.html",
+      "exists": true
+    },
+    {
+      "file": "galeria.html",
+      "line": 24,
+      "tag": "a",
+      "attribute": "href",
+      "value": "sobre.html",
+      "exists": true
+    },
+    {
+      "file": "galeria.html",
+      "line": 25,
+      "tag": "a",
+      "attribute": "href",
+      "value": "login.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 7,
+      "tag": "link",
+      "attribute": "href",
+      "value": "css/style.css",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 11,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 12,
+      "tag": "img",
+      "attribute": "src",
+      "value": "img/logo_studioxxi_transparente.png",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 16,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 17,
+      "tag": "a",
+      "attribute": "href",
+      "value": "clientes.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 18,
+      "tag": "a",
+      "attribute": "href",
+      "value": "agendamentos.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 19,
+      "tag": "a",
+      "attribute": "href",
+      "value": "servicos.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 20,
+      "tag": "a",
+      "attribute": "href",
+      "value": "equipe.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 21,
+      "tag": "a",
+      "attribute": "href",
+      "value": "galeria.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 22,
+      "tag": "a",
+      "attribute": "href",
+      "value": "avaliacoes.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 23,
+      "tag": "a",
+      "attribute": "href",
+      "value": "contato.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 24,
+      "tag": "a",
+      "attribute": "href",
+      "value": "sobre.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 25,
+      "tag": "a",
+      "attribute": "href",
+      "value": "login.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 34,
+      "tag": "a",
+      "attribute": "href",
+      "value": "agendamentos.html",
+      "exists": true
+    },
+    {
+      "file": "home.html",
+      "line": 55,
+      "tag": "a",
+      "attribute": "href",
+      "value": "servicos.html",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 7,
+      "tag": "link",
+      "attribute": "href",
+      "value": "css/style.css",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 11,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 12,
+      "tag": "img",
+      "attribute": "src",
+      "value": "img/logo_studioxxi_transparente.png",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 16,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 17,
+      "tag": "a",
+      "attribute": "href",
+      "value": "clientes.html",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 18,
+      "tag": "a",
+      "attribute": "href",
+      "value": "agendamentos.html",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 19,
+      "tag": "a",
+      "attribute": "href",
+      "value": "servicos.html",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 20,
+      "tag": "a",
+      "attribute": "href",
+      "value": "equipe.html",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 21,
+      "tag": "a",
+      "attribute": "href",
+      "value": "galeria.html",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 22,
+      "tag": "a",
+      "attribute": "href",
+      "value": "avaliacoes.html",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 23,
+      "tag": "a",
+      "attribute": "href",
+      "value": "contato.html",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 24,
+      "tag": "a",
+      "attribute": "href",
+      "value": "sobre.html",
+      "exists": true
+    },
+    {
+      "file": "login.html",
+      "line": 25,
+      "tag": "a",
+      "attribute": "href",
+      "value": "login.html",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 7,
+      "tag": "link",
+      "attribute": "href",
+      "value": "css/style.css",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 11,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 12,
+      "tag": "img",
+      "attribute": "src",
+      "value": "img/logo_studioxxi_transparente.png",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 16,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 17,
+      "tag": "a",
+      "attribute": "href",
+      "value": "clientes.html",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 18,
+      "tag": "a",
+      "attribute": "href",
+      "value": "agendamentos.html",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 19,
+      "tag": "a",
+      "attribute": "href",
+      "value": "servicos.html",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 20,
+      "tag": "a",
+      "attribute": "href",
+      "value": "equipe.html",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 21,
+      "tag": "a",
+      "attribute": "href",
+      "value": "galeria.html",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 22,
+      "tag": "a",
+      "attribute": "href",
+      "value": "avaliacoes.html",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 23,
+      "tag": "a",
+      "attribute": "href",
+      "value": "contato.html",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 24,
+      "tag": "a",
+      "attribute": "href",
+      "value": "sobre.html",
+      "exists": true
+    },
+    {
+      "file": "servicos.html",
+      "line": 25,
+      "tag": "a",
+      "attribute": "href",
+      "value": "login.html",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 7,
+      "tag": "link",
+      "attribute": "href",
+      "value": "css/style.css",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 11,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 12,
+      "tag": "img",
+      "attribute": "src",
+      "value": "img/logo_studioxxi_transparente.png",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 16,
+      "tag": "a",
+      "attribute": "href",
+      "value": "home.html",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 17,
+      "tag": "a",
+      "attribute": "href",
+      "value": "clientes.html",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 18,
+      "tag": "a",
+      "attribute": "href",
+      "value": "agendamentos.html",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 19,
+      "tag": "a",
+      "attribute": "href",
+      "value": "servicos.html",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 20,
+      "tag": "a",
+      "attribute": "href",
+      "value": "equipe.html",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 21,
+      "tag": "a",
+      "attribute": "href",
+      "value": "galeria.html",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 22,
+      "tag": "a",
+      "attribute": "href",
+      "value": "avaliacoes.html",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 23,
+      "tag": "a",
+      "attribute": "href",
+      "value": "contato.html",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 24,
+      "tag": "a",
+      "attribute": "href",
+      "value": "sobre.html",
+      "exists": true
+    },
+    {
+      "file": "sobre.html",
+      "line": 25,
+      "tag": "a",
+      "attribute": "href",
+      "value": "login.html",
+      "exists": true
+    }
+  ],
+  "index_mentions": [],
+  "site_hashes": {
+    "agendamentos.html": "a00eb8c70bd5efb7731e2314b82de207f6f2e20c9c1c507a08acd28c0cd7d6ee",
+    "avaliacoes.html": "a3f55826c9ee763e773b04ec6866948053fa294c107619f9f142a4426595031e",
+    "clientes.html": "e7688166c68b619bc98d72bed0ae40f907051e482d61ee27f60289cc08d56bec",
+    "contato.html": "21bf9af5dd173bec84aedb4968c55a07ca65793d3a82d837fc4af3bbb45f370f",
+    "equipe.html": "1a6f85b79bc57fbedb8fb7fee5fffda9b6f55e6d8ad75bb25f8bbb3b2c291ce2",
+    "galeria.html": "d37069d96dd61cfc4d4f998de7de28be27a9593e57879b5a2bbf9c51fce10433",
+    "home.html": "10c7ebe6fb60e9e78d0754a4ed1659aef5157ffc2dccde4d80be9f19f8a2c36a",
+    "login.html": "3c24eb52683431aa4332cb1edbeec3676c02ce85c80b77815d4ba9542c981cff",
+    "servicos.html": "48d9043d282800b125248fe2f7cb8b69c83b8730fbef719eddc95f20796459fa",
+    "sobre.html": "16408f9dec08ce919a3873f600418a8ef6e2d1c2c815039e95096efd21541324",
+    "css/style.css": "0d223e3416d4b8f5b04ddc38b6f09489a7c1f63d876b929f8307e88ea6f29d0c",
+    "img/logo_studioxxi.jpg": "5e1d87cb361a5bfafc84c613da7a6a3b1abe7e42309693937750ffd53a60b550",
+    "img/logo_studioxxi_transparente.png": "9110e484da900304a33ed5aa421e814e4cda8072dd76eedf29fe9b51ac2216fa"
+  },
+  "missing_references": [
+    {
+      "file": "equipe.html",
+      "line": 31,
+      "tag": "img",
+      "attribute": "src",
+      "value": "SEU_LINK_DA_IMAGEM",
+      "exists": false
+    }
+  ],
+  "script_files": [],
+  "server_files": [],
+  "media_files": []
+}

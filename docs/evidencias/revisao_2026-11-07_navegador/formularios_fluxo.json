@@ -1,0 +1,291 @@
+[
+    {
+        "teste":  "formulario vazio",
+        "pagina":  "login.html",
+        "formulario":  0,
+        "valido":  false,
+        "camposInvalidos":  [
+                                "entrar_email",
+                                "entrar_senha"
+                            ]
+    },
+    {
+        "teste":  "formulario vazio",
+        "pagina":  "login.html",
+        "formulario":  1,
+        "valido":  false,
+        "camposInvalidos":  [
+                                "cad_nome",
+                                "cad_sobrenome",
+                                "cad_email",
+                                "cad_telefone",
+                                "cad_senha",
+                                "cad_conf_senha"
+                            ]
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "login.html",
+        "campo":  "entrar_email",
+        "valor":  "joao@",
+        "valido":  false,
+        "patternMismatch":  false,
+        "typeMismatch":  true,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "login.html",
+        "campo":  "entrar_email",
+        "valor":  "teste@example.com",
+        "valido":  true,
+        "patternMismatch":  false,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "login.html",
+        "campo":  "cad_email",
+        "valor":  "joao@",
+        "valido":  false,
+        "patternMismatch":  false,
+        "typeMismatch":  true,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "login.html",
+        "campo":  "cad_email",
+        "valor":  "teste@example.com",
+        "valido":  true,
+        "patternMismatch":  false,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "login.html",
+        "campo":  "cad_telefone",
+        "valor":  "11999998888",
+        "valido":  false,
+        "patternMismatch":  true,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "login.html",
+        "campo":  "cad_telefone",
+        "valor":  "(11) 91234-5678",
+        "valido":  true,
+        "patternMismatch":  false,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "formulario vazio",
+        "pagina":  "agendamentos.html",
+        "formulario":  0,
+        "valido":  false,
+        "camposInvalidos":  [
+                                "agenda_data",
+                                "agenda_hora",
+                                "agenda_nome",
+                                "agenda_telefone"
+                            ]
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "agendamentos.html",
+        "campo":  "agenda_hora",
+        "valor":  "09:30",
+        "valido":  false,
+        "patternMismatch":  false,
+        "typeMismatch":  false,
+        "rangeUnderflow":  true,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "agendamentos.html",
+        "campo":  "agenda_hora",
+        "valor":  "21:00",
+        "valido":  false,
+        "patternMismatch":  false,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  true,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "agendamentos.html",
+        "campo":  "agenda_hora",
+        "valor":  "10:15",
+        "valido":  false,
+        "patternMismatch":  false,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  true
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "agendamentos.html",
+        "campo":  "agenda_hora",
+        "valor":  "10:00",
+        "valido":  true,
+        "patternMismatch":  false,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "agendamentos.html",
+        "campo":  "agenda_hora",
+        "valor":  "20:30",
+        "valido":  true,
+        "patternMismatch":  false,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "agendamentos.html",
+        "campo":  "agenda_telefone",
+        "valor":  "11999998888",
+        "valido":  false,
+        "patternMismatch":  true,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "agendamentos.html",
+        "campo":  "agenda_telefone",
+        "valor":  "(11) 91234-5678",
+        "valido":  true,
+        "patternMismatch":  false,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "formulario vazio",
+        "pagina":  "contato.html",
+        "formulario":  0,
+        "valido":  false,
+        "camposInvalidos":  [
+                                "contato_nome",
+                                "contato_email",
+                                "forma_contato",
+                                "forma_contato",
+                                "forma_contato",
+                                "contato_mensagem"
+                            ]
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "contato.html",
+        "campo":  "contato_email",
+        "valor":  "joao@",
+        "valido":  false,
+        "patternMismatch":  false,
+        "typeMismatch":  true,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "contato.html",
+        "campo":  "contato_email",
+        "valor":  "teste@example.com",
+        "valido":  true,
+        "patternMismatch":  false,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "contato.html",
+        "campo":  "contato_telefone",
+        "valor":  "11999998888",
+        "valido":  false,
+        "patternMismatch":  true,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "validade de campo",
+        "pagina":  "contato.html",
+        "campo":  "contato_telefone",
+        "valor":  "(11) 91234-5678",
+        "valido":  true,
+        "patternMismatch":  false,
+        "typeMismatch":  false,
+        "rangeUnderflow":  false,
+        "rangeOverflow":  false,
+        "stepMismatch":  false
+    },
+    {
+        "teste":  "cadastro e senhas",
+        "validoComSenhasDiferentes":  true,
+        "chavesEnviadas":  [
+                               "nome",
+                               "sobrenome",
+                               "email",
+                               "telefone"
+                           ],
+        "senhaEnviada":  false
+    },
+    {
+        "teste":  "envio real cadastro",
+        "destino":  "agendamentos.html",
+        "consulta":  "?nome=Teste\u0026sobrenome=Teste\u0026email=teste%40example.com\u0026telefone=%2811%29+91234-5678",
+        "senhaNaURL":  false
+    },
+    {
+        "teste":  "limites conhecidos",
+        "validoSemServicoComDataPassadaDomingo":  true
+    },
+    {
+        "teste":  "envio real agendamento",
+        "destino":  "minha-conta.html",
+        "consulta":  "?data=2020-01-05\u0026horario=10%3A00\u0026nome=Teste+ficticio\u0026telefone=%2811%29+91234-5678",
+        "dadosExibidos":  "Meus dados\n\nNome: João Exemplo\n\nE-mail: joao.exemplo@email.com\n\nTelefone: (11) 91234-5678"
+    },
+    {
+        "teste":  "sair",
+        "destino":  "home.html"
+    },
+    {
+        "teste":  "botao agendar home",
+        "destino":  "login.html"
+    }
+]

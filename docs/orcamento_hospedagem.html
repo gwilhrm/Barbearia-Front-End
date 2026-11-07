@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento de hospedagem e domínio | Studio XXI</title>
+</head>
+<body>
+    <header>
+        <h1>Orçamento de hospedagem e domínio</h1>
+        <p>Projeto acadêmico: Barbearia Studio XXI.</p>
+        <p>Data da revisão: <time datetime="2026-10-04">04/10/2026</time>.</p>
+        <nav aria-label="Documentação">
+            <a href="../README.md">README do projeto</a>
+            <a href="../home.html">Página inicial do site</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Planejamento de publicação</h2>
+            <section aria-labelledby="cenario">
+                <h3 id="cenario">Cenário atual</h3>
+                <p>O projeto possui 10 páginas HTML na raiz, uma folha de estilos e imagens da logo. O único recurso multimídia incorporado é um mapa externo em Contato. Não existem vídeos ou áudios locais, scripts JavaScript, código PHP ou banco de dados nos arquivos atuais.</p>
+                <p>Os formulários apresentam campos de demonstração, sem processamento no servidor, armazenamento ou autenticação. O orçamento considera a publicação de arquivos estáticos em HTML e CSS. Não inclui implementação de cadastro ou agendamento real.</p>
+                <p>A página inicial é home.html. Será necessário configurar a entrada da hospedagem para esse arquivo; o teste de publicação ainda está pendente. A documentação acadêmica deve permanecer fora da publicação destinada aos clientes.</p>
+            </section>
+            <section aria-labelledby="hospedagens">
+                <h3 id="hospedagens">Comparação de hospedagem</h3>
+                <table>
+                    <caption>Três alternativas para o site estático</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Provedor e plano</th>
+                            <th scope="col">Custo mensal / anual</th>
+                            <th scope="col">Arquivos e espaço</th>
+                            <th scope="col">Transferência</th>
+                            <th scope="col">SSL / HTTPS</th>
+                            <th scope="col">Suporte</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Cloudflare Pages Free</th>
+                            <td>US$ 0 / US$ 0.</td>
+                            <td>Até 20.000 arquivos por site; até 25 MiB por arquivo; 500 compilações mensais.</td>
+                            <td>Sem franquia de banda para arquivos estáticos, conforme condições do serviço.</td>
+                            <td>Incluído.</td>
+                            <td>Documentação e comunidade. No plano gratuito, chamados são limitados a assuntos como conta e cobrança.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">GitHub Pages no GitHub Free</th>
+                            <td>US$ 0 / US$ 0.</td>
+                            <td>Site publicado de até 1 GB, em repositório público no plano gratuito.</td>
+                            <td>Limite flexível de 100 GB por mês.</td>
+                            <td>Disponível, inclusive com domínio próprio corretamente configurado.</td>
+                            <td>Documentação e comunidade do GitHub.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Netlify Free</th>
+                            <td>US$ 0 / US$ 0.</td>
+                            <td>A página de preços não informa franquia em GB para os arquivos estáticos.</td>
+                            <td>300 créditos mensais compartilhados. Transferência: 20 créditos por GB; publicações e requisições também consomem créditos.</td>
+                            <td>Incluído para domínio próprio.</td>
+                            <td>Documentação e canais comunitários; consultar as condições de suporte do plano.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>As unidades de limite não são equivalentes: tamanho do site, quantidade de arquivos e créditos de uso são critérios diferentes. Na Netlify, não se deve interpretar os créditos mensais como uma franquia exclusiva de transferência.</p>
+                <p>O GitHub Pages é uma alternativa para apresentação acadêmica. Suas regras restringem o uso como serviço gratuito para sites voltados principalmente a transações comerciais; a publicação de um serviço real de agendamento exigiria reavaliar essa alternativa.</p>
+                <p>Fontes consultadas em 04/10/2026: <a href="https://www.cloudflare.com/products/pages/">Cloudflare Pages</a>, <a href="https://developers.cloudflare.com/pages/platform/limits/">limites do Pages</a>, <a href="https://developers.cloudflare.com/support/contacting-cloudflare-support/">suporte Cloudflare</a>, <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits">limites do GitHub Pages</a>, <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https">HTTPS no GitHub Pages</a>, <a href="https://docs.github.com/en/get-started/learning-about-github/githubs-plans">planos do GitHub</a>, <a href="https://www.netlify.com/pricing/">preços da Netlify</a> e <a href="https://www.netlify.com/support/">suporte Netlify</a>.</p>
+            </section>
+            <section aria-labelledby="dominios">
+                <h3 id="dominios">Comparação de registro de domínio</h3>
+                <table>
+                    <caption>Três opções de extensão, com registro e renovação de um ano</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Registrador</th>
+                            <th scope="col">Extensão</th>
+                            <th scope="col">Primeiro ano</th>
+                            <th scope="col">Renovação anual</th>
+                            <th scope="col">Fonte e observações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Registro.br</th>
+                            <td>.com.br</td>
+                            <td>R$ 40,00 como referência de manutenção anual; confirmar no registro.</td>
+                            <td>R$ 40,00 como referência anual.</td>
+                            <td><a href="https://registro.br/dominio/processo-de-liberacao/resultado/">Página oficial de liberação, com referência ao valor normal de manutenção</a>.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Namecheap</th>
+                            <td>.com</td>
+                            <td>US$ 11,28, preço promocional sem cupom.</td>
+                            <td>US$ 18,48.</td>
+                            <td><a href="https://www.namecheap.com/domains/registration/gtld/com/">Tabela oficial .com</a>.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Namecheap</th>
+                            <td>.net</td>
+                            <td>US$ 12,48, preço promocional sem cupom.</td>
+                            <td>US$ 18,58.</td>
+                            <td><a href="https://www.namecheap.com/domains/registration/gtld/net/">Tabela oficial .net</a>.</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Os valores da Namecheap foram conferidos nas tabelas públicas em 04/10/2026. A tarifa do Registro.br foi identificada no resultado de pesquisa da página oficial citada; a página depende de JavaScript e sua tabela de pagamento não foi conferida no painel. Essa opção permanece sujeita à confirmação antes da contratação.</p>
+                <p>Os valores em dólares não foram convertidos para reais. A Namecheap informa uma taxa anual ICANN de US$ 0,20 para os domínios aos quais ela se aplica, acrescentada à compra. As tabelas acima não incluem essa taxa, impostos, câmbio ou preços de nomes premium. Não foi consultada a disponibilidade de um nome específico.</p>
+            </section>
+            <section aria-labelledby="escolha">
+                <h3 id="escolha">Escolha proposta</h3>
+                <p>A proposta é Cloudflare Pages Free com domínio .com.br no Registro.br. O site atual utiliza arquivos estáticos e pode ser publicado sem uma mensalidade de hospedagem. O HTTPS incluído e os limites de arquivos atendem ao porte acadêmico do projeto, enquanto a distribuição dos arquivos permite acomodar mais visitas sem modificar o HTML. A extensão .com.br é adequada ao público brasileiro. O custo de referência é R$ 40,00 por ano para o domínio, sujeito à confirmação da tarifa e da disponibilidade. Para demonstração, um subdomínio gratuito permite manter o custo em zero.</p>
+                <p>Essa escolha não implementa o envio dos formulários. Uma futura necessidade de processamento e armazenamento exigirá outra avaliação técnica e de custos. Vídeo e áudio, se adicionados posteriormente para a atividade, deverão ser avaliados quanto ao tamanho dos arquivos e à transferência; não são recursos existentes nesta versão.</p>
+                <p>Nenhuma hospedagem ou domínio foi contratado nesta tarefa. O grupo deve revisar as condições dos provedores antes de publicar.</p>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>Documento acadêmico da Barbearia Studio XXI.</p>
+        <a href="testes_validacoes.md">Consultar os registros de testes</a>
+    </footer>
+</body>
+</html>

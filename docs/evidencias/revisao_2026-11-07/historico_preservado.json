@@ -1,0 +1,22 @@
+[
+    {
+        "sha256":  "C6C017010C0E56087661A0F04549B5EE164D4EEFC88C5D955D254EE35FB826A2",
+        "arquivo":  "agendamentos_1280.png"
+    },
+    {
+        "sha256":  "5F52D58C9D17FC802B69DF8B50211E5A782D1C9CB552EA65FD55B27277EABCFF",
+        "arquivo":  "clientes_1280.png"
+    },
+    {
+        "sha256":  "FF89812441C209202CBAE43C10B6AD21CA1654D2F936E666E42F6DE5B5E3DE62",
+        "arquivo":  "home_1280.png"
+    },
+    {
+        "sha256":  "CF67C26A665B14ECABC4B6A2F45469DFAE7E0852D3101945118C4694C1771592",
+        "arquivo":  "login_500.png"
+    },
+    {
+        "sha256":  "5C0DEA60E57F4B48F0DEEC6E39EC5B3B2E5E581B8DCF5CC232273650536B1FDE",
+        "arquivo":  "revisao_2026-10-04.json"
+    }
+]

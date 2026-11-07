@@ -1,0 +1,1754 @@
+[
+    {
+        "arquivo":  "agendamentos.html",
+        "largura":  1280,
+        "larguraDocumento":  1265,
+        "transbordamento":  false,
+        "titulo":  "Agendamentos | Studio XXI",
+        "h1":  1,
+        "header":  1,
+        "main":  1,
+        "footer":  1,
+        "idsDuplicados":  [
+
+                          ],
+        "labelsSemCampo":  [
+
+                           ],
+        "menu":  [
+                     {
+                         "href":  "home.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "servicos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "agendamentos.html",
+                         "atual":  "page",
+                         "cor":  "rgb(232, 192, 121)"
+                     },
+                     {
+                         "href":  "equipe.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "galeria.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "avaliacoes.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "sobre.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "contato.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "login.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "minha-conta.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     }
+                 ],
+        "referencias":  [
+                            {
+                                "tag":  "link",
+                                "atributo":  "href",
+                                "valor":  "css/style.css"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "img",
+                                "atributo":  "src",
+                                "valor":  "img/logo_studioxxi_transparente.png"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "servicos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "agendamentos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "equipe.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "galeria.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "avaliacoes.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "sobre.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "contato.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "login.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "minha-conta.html"
+                            }
+                        ],
+        "imagens":  [
+                        {
+                            "src":  "img/logo_studioxxi_transparente.png",
+                            "alt":  "Logo da Barbearia Studio XXI",
+                            "carregada":  true
+                        }
+                    ],
+        "formularios":  [
+                            {
+                                "action":  "minha-conta.html",
+                                "method":  "get",
+                                "campos":  [
+                                               {
+                                                   "type":  "checkbox",
+                                                   "name":  "servico",
+                                                   "value":  "corte"
+                                               },
+                                               {
+                                                   "type":  "checkbox",
+                                                   "name":  "servico",
+                                                   "value":  "barba"
+                                               },
+                                               {
+                                                   "type":  "checkbox",
+                                                   "name":  "servico",
+                                                   "value":  "sobrancelha"
+                                               },
+                                               {
+                                                   "type":  "checkbox",
+                                                   "name":  "servico",
+                                                   "value":  "corte-infantil"
+                                               },
+                                               {
+                                                   "type":  "checkbox",
+                                                   "name":  "servico",
+                                                   "value":  "hidratacao"
+                                               },
+                                               {
+                                                   "type":  "date",
+                                                   "id":  "agenda_data",
+                                                   "name":  "data",
+                                                   "required":  ""
+                                               },
+                                               {
+                                                   "type":  "time",
+                                                   "id":  "agenda_hora",
+                                                   "name":  "horario",
+                                                   "required":  "",
+                                                   "min":  "10:00",
+                                                   "max":  "20:30",
+                                                   "step":  "1800"
+                                               },
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "agenda_nome",
+                                                   "name":  "nome",
+                                                   "placeholder":  "Digite seu nome",
+                                                   "required":  ""
+                                               },
+                                               {
+                                                   "type":  "tel",
+                                                   "id":  "agenda_telefone",
+                                                   "name":  "telefone",
+                                                   "placeholder":  "(11) 91234-5678",
+                                                   "required":  "",
+                                                   "pattern":  "\\(\\d{2}\\) \\d{4,5}-\\d{4}",
+                                                   "title":  "Digite no formato (11) 91234-5678"
+                                               }
+                                           ]
+                            }
+                        ],
+        "iframes":  [
+
+                    ],
+        "scripts":  0,
+        "elementosForaDaTela":  [
+
+                                ]
+    },
+    {
+        "arquivo":  "avaliacoes.html",
+        "largura":  1280,
+        "larguraDocumento":  1280,
+        "transbordamento":  false,
+        "titulo":  "Avaliações | Studio XXI",
+        "h1":  1,
+        "header":  1,
+        "main":  1,
+        "footer":  1,
+        "idsDuplicados":  [
+
+                          ],
+        "labelsSemCampo":  [
+
+                           ],
+        "menu":  [
+                     {
+                         "href":  "home.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "servicos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "agendamentos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "equipe.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "galeria.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "avaliacoes.html",
+                         "atual":  "page",
+                         "cor":  "rgb(232, 192, 121)"
+                     },
+                     {
+                         "href":  "sobre.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "contato.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "login.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "minha-conta.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     }
+                 ],
+        "referencias":  [
+                            {
+                                "tag":  "link",
+                                "atributo":  "href",
+                                "valor":  "css/style.css"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "img",
+                                "atributo":  "src",
+                                "valor":  "img/logo_studioxxi_transparente.png"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "servicos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "agendamentos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "equipe.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "galeria.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "avaliacoes.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "sobre.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "contato.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "login.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "minha-conta.html"
+                            }
+                        ],
+        "imagens":  [
+                        {
+                            "src":  "img/logo_studioxxi_transparente.png",
+                            "alt":  "Logo da Barbearia Studio XXI",
+                            "carregada":  true
+                        }
+                    ],
+        "formularios":  [
+
+                        ],
+        "iframes":  [
+
+                    ],
+        "scripts":  0,
+        "elementosForaDaTela":  [
+
+                                ]
+    },
+    {
+        "arquivo":  "contato.html",
+        "largura":  1280,
+        "larguraDocumento":  1265,
+        "transbordamento":  false,
+        "titulo":  "Contato | Studio XXI",
+        "h1":  1,
+        "header":  1,
+        "main":  1,
+        "footer":  1,
+        "idsDuplicados":  [
+
+                          ],
+        "labelsSemCampo":  [
+
+                           ],
+        "menu":  [
+                     {
+                         "href":  "home.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "servicos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "agendamentos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "equipe.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "galeria.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "avaliacoes.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "sobre.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "contato.html",
+                         "atual":  "page",
+                         "cor":  "rgb(232, 192, 121)"
+                     },
+                     {
+                         "href":  "login.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "minha-conta.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     }
+                 ],
+        "referencias":  [
+                            {
+                                "tag":  "link",
+                                "atributo":  "href",
+                                "valor":  "css/style.css"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "img",
+                                "atributo":  "src",
+                                "valor":  "img/logo_studioxxi_transparente.png"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "servicos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "agendamentos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "equipe.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "galeria.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "avaliacoes.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "sobre.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "contato.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "login.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "minha-conta.html"
+                            },
+                            {
+                                "tag":  "iframe",
+                                "atributo":  "src",
+                                "valor":  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7859408743134!2d-46.4940045249163!3d-23.54020027881441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67339324f6c9%3A0xe07845d2a4a23024!2sR.%20Maciel%20Monteiro%2C%20526%20-%20Parque%20Artur%20Alvim%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003566-000!5e0!3m2!1spt-BR!2sbr!4v1790651400613!5m2!1spt-BR!2sbr"
+                            }
+                        ],
+        "imagens":  [
+                        {
+                            "src":  "img/logo_studioxxi_transparente.png",
+                            "alt":  "Logo da Barbearia Studio XXI",
+                            "carregada":  true
+                        }
+                    ],
+        "formularios":  [
+                            {
+                                "action":  "contato.html",
+                                "method":  "get",
+                                "campos":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "contato_nome",
+                                                   "name":  "nome",
+                                                   "placeholder":  "Digite seu nome",
+                                                   "required":  ""
+                                               },
+                                               {
+                                                   "type":  "email",
+                                                   "id":  "contato_email",
+                                                   "name":  "email",
+                                                   "placeholder":  "exemplo@dominio.com",
+                                                   "required":  ""
+                                               },
+                                               {
+                                                   "type":  "tel",
+                                                   "id":  "contato_telefone",
+                                                   "name":  "telefone",
+                                                   "placeholder":  "(11) 91234-5678",
+                                                   "pattern":  "\\(\\d{2}\\) \\d{4,5}-\\d{4}",
+                                                   "title":  "Digite no formato (11) 91234-5678"
+                                               },
+                                               {
+                                                   "type":  "radio",
+                                                   "name":  "forma_contato",
+                                                   "value":  "email",
+                                                   "required":  ""
+                                               },
+                                               {
+                                                   "type":  "radio",
+                                                   "name":  "forma_contato",
+                                                   "value":  "telefone"
+                                               },
+                                               {
+                                                   "type":  "radio",
+                                                   "name":  "forma_contato",
+                                                   "value":  "whatsapp"
+                                               },
+                                               {
+                                                   "id":  "contato_periodo",
+                                                   "name":  "periodo"
+                                               },
+                                               {
+                                                   "id":  "contato_mensagem",
+                                                   "name":  "mensagem",
+                                                   "rows":  "6",
+                                                   "placeholder":  "Deixe suas perguntas, comentários e sugestões",
+                                                   "required":  ""
+                                               }
+                                           ]
+                            }
+                        ],
+        "iframes":  [
+                        {
+                            "title":  "Mapa da Studio XXI",
+                            "src":  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7859408743134!2d-46.4940045249163!3d-23.54020027881441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67339324f6c9%3A0xe07845d2a4a23024!2sR.%20Maciel%20Monteiro%2C%20526%20-%20Parque%20Artur%20Alvim%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003566-000!5e0!3m2!1spt-BR!2sbr!4v1790651400613!5m2!1spt-BR!2sbr",
+                            "allowfullscreen":  "",
+                            "loading":  "lazy",
+                            "referrerpolicy":  "strict-origin-when-cross-origin"
+                        }
+                    ],
+        "scripts":  0,
+        "elementosForaDaTela":  [
+
+                                ]
+    },
+    {
+        "arquivo":  "equipe.html",
+        "largura":  1280,
+        "larguraDocumento":  1265,
+        "transbordamento":  false,
+        "titulo":  "Equipe | Studio XXI",
+        "h1":  1,
+        "header":  1,
+        "main":  1,
+        "footer":  1,
+        "idsDuplicados":  [
+
+                          ],
+        "labelsSemCampo":  [
+
+                           ],
+        "menu":  [
+                     {
+                         "href":  "home.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "servicos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "agendamentos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "equipe.html",
+                         "atual":  "page",
+                         "cor":  "rgb(232, 192, 121)"
+                     },
+                     {
+                         "href":  "galeria.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "avaliacoes.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "sobre.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "contato.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "login.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "minha-conta.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     }
+                 ],
+        "referencias":  [
+                            {
+                                "tag":  "link",
+                                "atributo":  "href",
+                                "valor":  "css/style.css"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "img",
+                                "atributo":  "src",
+                                "valor":  "img/logo_studioxxi_transparente.png"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "servicos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "agendamentos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "equipe.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "galeria.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "avaliacoes.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "sobre.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "contato.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "login.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "minha-conta.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "sobre.html"
+                            }
+                        ],
+        "imagens":  [
+                        {
+                            "src":  "img/logo_studioxxi_transparente.png",
+                            "alt":  "Logo da Barbearia Studio XXI",
+                            "carregada":  true
+                        }
+                    ],
+        "formularios":  [
+
+                        ],
+        "iframes":  [
+
+                    ],
+        "scripts":  0,
+        "elementosForaDaTela":  [
+
+                                ]
+    },
+    {
+        "arquivo":  "galeria.html",
+        "largura":  1280,
+        "larguraDocumento":  1265,
+        "transbordamento":  false,
+        "titulo":  "Galeria | Studio XXI",
+        "h1":  1,
+        "header":  1,
+        "main":  1,
+        "footer":  1,
+        "idsDuplicados":  [
+
+                          ],
+        "labelsSemCampo":  [
+
+                           ],
+        "menu":  [
+                     {
+                         "href":  "home.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "servicos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "agendamentos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "equipe.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "galeria.html",
+                         "atual":  "page",
+                         "cor":  "rgb(232, 192, 121)"
+                     },
+                     {
+                         "href":  "avaliacoes.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "sobre.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "contato.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "login.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "minha-conta.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     }
+                 ],
+        "referencias":  [
+                            {
+                                "tag":  "link",
+                                "atributo":  "href",
+                                "valor":  "css/style.css"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "img",
+                                "atributo":  "src",
+                                "valor":  "img/logo_studioxxi_transparente.png"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "servicos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "agendamentos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "equipe.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "galeria.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "avaliacoes.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "sobre.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "contato.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "login.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "minha-conta.html"
+                            }
+                        ],
+        "imagens":  [
+                        {
+                            "src":  "img/logo_studioxxi_transparente.png",
+                            "alt":  "Logo da Barbearia Studio XXI",
+                            "carregada":  true
+                        }
+                    ],
+        "formularios":  [
+
+                        ],
+        "iframes":  [
+
+                    ],
+        "scripts":  0,
+        "elementosForaDaTela":  [
+
+                                ]
+    },
+    {
+        "arquivo":  "home.html",
+        "largura":  1280,
+        "larguraDocumento":  1265,
+        "transbordamento":  false,
+        "titulo":  "Home | Studio XXI",
+        "h1":  1,
+        "header":  1,
+        "main":  1,
+        "footer":  1,
+        "idsDuplicados":  [
+
+                          ],
+        "labelsSemCampo":  [
+
+                           ],
+        "menu":  [
+                     {
+                         "href":  "home.html",
+                         "atual":  "page",
+                         "cor":  "rgb(232, 192, 121)"
+                     },
+                     {
+                         "href":  "servicos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "agendamentos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "equipe.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "galeria.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "avaliacoes.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "sobre.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "contato.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "login.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "minha-conta.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     }
+                 ],
+        "referencias":  [
+                            {
+                                "tag":  "link",
+                                "atributo":  "href",
+                                "valor":  "css/style.css"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "img",
+                                "atributo":  "src",
+                                "valor":  "img/logo_studioxxi_transparente.png"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "servicos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "agendamentos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "equipe.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "galeria.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "avaliacoes.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "sobre.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "contato.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "login.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "minha-conta.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "login.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "servicos.html"
+                            }
+                        ],
+        "imagens":  [
+                        {
+                            "src":  "img/logo_studioxxi_transparente.png",
+                            "alt":  "Logo da Barbearia Studio XXI",
+                            "carregada":  true
+                        }
+                    ],
+        "formularios":  [
+
+                        ],
+        "iframes":  [
+
+                    ],
+        "scripts":  0,
+        "elementosForaDaTela":  [
+
+                                ]
+    },
+    {
+        "arquivo":  "login.html",
+        "largura":  1280,
+        "larguraDocumento":  1265,
+        "transbordamento":  false,
+        "titulo":  "Entrar | Studio XXI",
+        "h1":  1,
+        "header":  1,
+        "main":  1,
+        "footer":  1,
+        "idsDuplicados":  [
+
+                          ],
+        "labelsSemCampo":  [
+
+                           ],
+        "menu":  [
+                     {
+                         "href":  "home.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "servicos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "agendamentos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "equipe.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "galeria.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "avaliacoes.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "sobre.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "contato.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "login.html",
+                         "atual":  "page",
+                         "cor":  "rgb(232, 192, 121)"
+                     },
+                     {
+                         "href":  "minha-conta.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     }
+                 ],
+        "referencias":  [
+                            {
+                                "tag":  "link",
+                                "atributo":  "href",
+                                "valor":  "css/style.css"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "img",
+                                "atributo":  "src",
+                                "valor":  "img/logo_studioxxi_transparente.png"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "servicos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "agendamentos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "equipe.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "galeria.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "avaliacoes.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "sobre.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "contato.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "login.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "minha-conta.html"
+                            }
+                        ],
+        "imagens":  [
+                        {
+                            "src":  "img/logo_studioxxi_transparente.png",
+                            "alt":  "Logo da Barbearia Studio XXI",
+                            "carregada":  true
+                        }
+                    ],
+        "formularios":  [
+                            {
+                                "action":  "agendamentos.html",
+                                "method":  "get",
+                                "campos":  [
+                                               {
+                                                   "type":  "email",
+                                                   "id":  "entrar_email",
+                                                   "name":  "email",
+                                                   "placeholder":  "exemplo@dominio.com",
+                                                   "required":  ""
+                                               },
+                                               {
+                                                   "type":  "password",
+                                                   "id":  "entrar_senha",
+                                                   "placeholder":  "Digite sua senha",
+                                                   "required":  ""
+                                               }
+                                           ]
+                            },
+                            {
+                                "action":  "agendamentos.html",
+                                "method":  "get",
+                                "campos":  [
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "cad_nome",
+                                                   "name":  "nome",
+                                                   "placeholder":  "Digite seu nome",
+                                                   "required":  ""
+                                               },
+                                               {
+                                                   "type":  "text",
+                                                   "id":  "cad_sobrenome",
+                                                   "name":  "sobrenome",
+                                                   "placeholder":  "Digite seu sobrenome",
+                                                   "required":  ""
+                                               },
+                                               {
+                                                   "type":  "email",
+                                                   "id":  "cad_email",
+                                                   "name":  "email",
+                                                   "placeholder":  "exemplo@dominio.com",
+                                                   "required":  ""
+                                               },
+                                               {
+                                                   "type":  "tel",
+                                                   "id":  "cad_telefone",
+                                                   "name":  "telefone",
+                                                   "placeholder":  "(11) 91234-5678",
+                                                   "required":  "",
+                                                   "pattern":  "\\(\\d{2}\\) \\d{4,5}-\\d{4}",
+                                                   "title":  "Digite no formato (11) 91234-5678"
+                                               },
+                                               {
+                                                   "type":  "password",
+                                                   "id":  "cad_senha",
+                                                   "placeholder":  "Crie uma senha",
+                                                   "required":  ""
+                                               },
+                                               {
+                                                   "type":  "password",
+                                                   "id":  "cad_conf_senha",
+                                                   "placeholder":  "Digite a senha de novo",
+                                                   "required":  ""
+                                               }
+                                           ]
+                            }
+                        ],
+        "iframes":  [
+
+                    ],
+        "scripts":  0,
+        "elementosForaDaTela":  [
+
+                                ]
+    },
+    {
+        "arquivo":  "minha-conta.html",
+        "largura":  1280,
+        "larguraDocumento":  1265,
+        "transbordamento":  false,
+        "titulo":  "Minha conta | Studio XXI",
+        "h1":  1,
+        "header":  1,
+        "main":  1,
+        "footer":  1,
+        "idsDuplicados":  [
+
+                          ],
+        "labelsSemCampo":  [
+
+                           ],
+        "menu":  [
+                     {
+                         "href":  "home.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "servicos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "agendamentos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "equipe.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "galeria.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "avaliacoes.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "sobre.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "contato.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "login.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "minha-conta.html",
+                         "atual":  "page",
+                         "cor":  "rgb(232, 192, 121)"
+                     }
+                 ],
+        "referencias":  [
+                            {
+                                "tag":  "link",
+                                "atributo":  "href",
+                                "valor":  "css/style.css"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "img",
+                                "atributo":  "src",
+                                "valor":  "img/logo_studioxxi_transparente.png"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "servicos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "agendamentos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "equipe.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "galeria.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "avaliacoes.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "sobre.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "contato.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "login.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "minha-conta.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "agendamentos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            }
+                        ],
+        "imagens":  [
+                        {
+                            "src":  "img/logo_studioxxi_transparente.png",
+                            "alt":  "Logo da Barbearia Studio XXI",
+                            "carregada":  true
+                        }
+                    ],
+        "formularios":  [
+
+                        ],
+        "iframes":  [
+
+                    ],
+        "scripts":  0,
+        "elementosForaDaTela":  [
+
+                                ]
+    },
+    {
+        "arquivo":  "servicos.html",
+        "largura":  1280,
+        "larguraDocumento":  1265,
+        "transbordamento":  false,
+        "titulo":  "Serviços | Studio XXI",
+        "h1":  1,
+        "header":  1,
+        "main":  1,
+        "footer":  1,
+        "idsDuplicados":  [
+
+                          ],
+        "labelsSemCampo":  [
+
+                           ],
+        "menu":  [
+                     {
+                         "href":  "home.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "servicos.html",
+                         "atual":  "page",
+                         "cor":  "rgb(232, 192, 121)"
+                     },
+                     {
+                         "href":  "agendamentos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "equipe.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "galeria.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "avaliacoes.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "sobre.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "contato.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "login.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "minha-conta.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     }
+                 ],
+        "referencias":  [
+                            {
+                                "tag":  "link",
+                                "atributo":  "href",
+                                "valor":  "css/style.css"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "img",
+                                "atributo":  "src",
+                                "valor":  "img/logo_studioxxi_transparente.png"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "servicos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "agendamentos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "equipe.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "galeria.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "avaliacoes.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "sobre.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "contato.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "login.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "minha-conta.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "login.html"
+                            }
+                        ],
+        "imagens":  [
+                        {
+                            "src":  "img/logo_studioxxi_transparente.png",
+                            "alt":  "Logo da Barbearia Studio XXI",
+                            "carregada":  true
+                        }
+                    ],
+        "formularios":  [
+
+                        ],
+        "iframes":  [
+
+                    ],
+        "scripts":  0,
+        "elementosForaDaTela":  [
+
+                                ]
+    },
+    {
+        "arquivo":  "sobre.html",
+        "largura":  1280,
+        "larguraDocumento":  1265,
+        "transbordamento":  false,
+        "titulo":  "Sobre | Studio XXI",
+        "h1":  1,
+        "header":  1,
+        "main":  1,
+        "footer":  1,
+        "idsDuplicados":  [
+
+                          ],
+        "labelsSemCampo":  [
+
+                           ],
+        "menu":  [
+                     {
+                         "href":  "home.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "servicos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "agendamentos.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "equipe.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "galeria.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "avaliacoes.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "sobre.html",
+                         "atual":  "page",
+                         "cor":  "rgb(232, 192, 121)"
+                     },
+                     {
+                         "href":  "contato.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "login.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     },
+                     {
+                         "href":  "minha-conta.html",
+                         "atual":  null,
+                         "cor":  "rgba(0, 0, 0, 0)"
+                     }
+                 ],
+        "referencias":  [
+                            {
+                                "tag":  "link",
+                                "atributo":  "href",
+                                "valor":  "css/style.css"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "img",
+                                "atributo":  "src",
+                                "valor":  "img/logo_studioxxi_transparente.png"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "home.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "servicos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "agendamentos.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "equipe.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "galeria.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "avaliacoes.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "sobre.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "contato.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "login.html"
+                            },
+                            {
+                                "tag":  "a",
+                                "atributo":  "href",
+                                "valor":  "minha-conta.html"
+                            }
+                        ],
+        "imagens":  [
+                        {
+                            "src":  "img/logo_studioxxi_transparente.png",
+                            "alt":  "Logo da Barbearia Studio XXI",
+                            "carregada":  true
+                        }
+                    ],
+        "formularios":  [
+
+                        ],
+        "iframes":  [
+
+                    ],
+        "scripts":  0,
+        "elementosForaDaTela":  [
+
+                                ]
+    }
+]

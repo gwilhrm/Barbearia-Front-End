@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamentos | Studio XXI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="home.html" aria-label="Página inicial">
+            <img src="img/logo_studioxxi_transparente.png" alt="Logo da Barbearia Studio XXI">
+        </a>
+
+        <nav aria-label="Menu principal">
+            <a href="home.html">Home</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="agendamentos.html" aria-current="page">Agendamentos</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="avaliacoes.html">Avaliações</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+            <a href="login.html">Entrar</a>
+            <a href="minha-conta.html">Minha conta</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Faixa de título (igual em todas as páginas). -->
+        <section class="faixa-titulo">
+            <h1>Agendamentos</h1>
+            <p>Escolha os serviços, o dia e o horário.</p>
+        </section>
+
+        <!-- Informações antes do formulário. RN07 e RN22 vêm do projeto de Modelagem de Dados. -->
+        <section class="bloco">
+            <h2>Como funciona</h2>
+            <ul>
+                <li><strong>Horário:</strong> segunda a quinta, das 14h às 21h; sexta e sábado, das 10h às 21h; domingo fechado.</li>
+                <li><strong>Mais de um serviço:</strong> você pode marcar vários serviços no mesmo agendamento. O tempo reservado é a soma do tempo de cada serviço.</li>
+                <li><strong>Combo:</strong> marcando Corte e Barba juntos, você paga R$ 55,25 em vez de R$ 65,00 (15% de desconto).</li>
+            </ul>
+        </section>
+
+        <!-- Ao confirmar, o cliente vai para Minha conta. O site não grava o agendamento. -->
+        <form action="minha-conta.html" method="get">
+            <!-- Checkbox permite marcar mais de um serviço (RN05). -->
+            <fieldset>
+                <legend>Serviços (marque um ou mais)</legend>
+                <label><input type="checkbox" name="servico" value="corte"> Corte · R$ 45,00</label>
+                <label><input type="checkbox" name="servico" value="barba"> Barba · R$ 20,00</label>
+                <label><input type="checkbox" name="servico" value="sobrancelha"> Sobrancelha · R$ 15,00</label>
+                <label><input type="checkbox" name="servico" value="corte-infantil"> Corte infantil · R$ 30,00</label>
+                <label><input type="checkbox" name="servico" value="hidratacao"> Hidratação capilar · R$ 35,00</label>
+            </fieldset>
+
+            <label for="agenda_data">Data</label>
+            <input type="date" id="agenda_data" name="data" required>
+
+            <!-- step="1800" = intervalos de 30 minutos (1800 segundos). -->
+            <label for="agenda_hora">Horário</label>
+            <input type="time" id="agenda_hora" name="horario" required min="10:00" max="20:30" step="1800">
+
+            <label for="agenda_nome">Nome</label>
+            <input type="text" id="agenda_nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label for="agenda_telefone">Telefone</label>
+            <input type="tel" id="agenda_telefone" name="telefone" placeholder="(11) 91234-5678" required pattern="\(\d{2}\) \d{4,5}-\d{4}" title="Digite no formato (11) 91234-5678">
+
+            <button class="botao" type="submit">Confirmar agendamento</button>
+        </form>
+    </main>
+
+    <!-- Rodapé igual em todas as páginas. -->
+    <footer>
+        <p>Barbearia Studio XXI · R. Maciel Monteiro, 526, Sala 03 · Vila Santa Teresa, São Paulo - SP</p>
+        <p>Segunda a quinta: 14h às 21h · Sexta e sábado: 10h às 21h · Domingo: fechado</p>
+        <p>Pagamento: Pix e cartões</p>
+        <p>Projeto acadêmico de Desenvolvimento Front-End para Web.</p>
+    </footer>
+</body>
+</html>

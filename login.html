@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar | Studio XXI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="home.html" aria-label="Página inicial">
+            <img src="img/logo_studioxxi_transparente.png" alt="Logo da Barbearia Studio XXI">
+        </a>
+
+        <nav aria-label="Menu principal">
+            <a href="home.html">Home</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="agendamentos.html">Agendamentos</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="avaliacoes.html">Avaliações</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+            <a href="login.html" aria-current="page">Entrar</a>
+            <a href="minha-conta.html">Minha conta</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Faixa de título (igual em todas as páginas). -->
+        <section class="faixa-titulo">
+            <h1>Entrar</h1>
+            <p>Entre na sua conta ou crie uma nova para agendar seu horário.</p>
+        </section>
+
+        <!--
+            ATENÇÃO SOBRE AS SENHAS:
+            Os dois formulários usam method="get", que coloca os dados na URL
+            (exemplo: agendamentos.html?email=joao@email.com).
+            Por isso os campos de senha NÃO têm o atributo name: campo sem name
+            não é enviado, então a senha nunca aparece na URL.
+            O site não tem servidor, então ninguém confere a senha de verdade.
+        -->
+
+        <!-- Formulário 1: quem já tem conta. -->
+        <section>
+            <h2>Já tenho conta</h2>
+            <form action="agendamentos.html" method="get">
+                <label for="entrar_email">E-mail</label>
+                <input type="email" id="entrar_email" name="email" placeholder="exemplo@dominio.com" required>
+
+                <label for="entrar_senha">Senha</label>
+                <input type="password" id="entrar_senha" placeholder="Digite sua senha" required>
+
+                <button class="botao" type="submit">Entrar</button>
+            </form>
+        </section>
+
+        <!-- Formulário 2: quem ainda não tem conta (cadastro). -->
+        <section>
+            <h2>Criar conta</h2>
+            <form action="agendamentos.html" method="get">
+                <label for="cad_nome">Nome</label>
+                <input type="text" id="cad_nome" name="nome" placeholder="Digite seu nome" required>
+
+                <label for="cad_sobrenome">Sobrenome</label>
+                <input type="text" id="cad_sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required>
+
+                <label for="cad_email">E-mail</label>
+                <input type="email" id="cad_email" name="email" placeholder="exemplo@dominio.com" required>
+
+                <label for="cad_telefone">Telefone</label>
+                <input type="tel" id="cad_telefone" name="telefone" placeholder="(11) 91234-5678" required pattern="\(\d{2}\) \d{4,5}-\d{4}" title="Digite no formato (11) 91234-5678">
+
+                <label for="cad_senha">Senha</label>
+                <input type="password" id="cad_senha" placeholder="Crie uma senha" required>
+
+                <!-- Sem JavaScript, o navegador não confere se as duas senhas são iguais. -->
+                <label for="cad_conf_senha">Confirmar senha</label>
+                <input type="password" id="cad_conf_senha" placeholder="Digite a senha de novo" required>
+
+                <button class="botao" type="submit">Criar conta</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé igual em todas as páginas. -->
+    <footer>
+        <p>Barbearia Studio XXI · R. Maciel Monteiro, 526, Sala 03 · Vila Santa Teresa, São Paulo - SP</p>
+        <p>Segunda a quinta: 14h às 21h · Sexta e sábado: 10h às 21h · Domingo: fechado</p>
+        <p>Pagamento: Pix e cartões</p>
+        <p>Projeto acadêmico de Desenvolvimento Front-End para Web.</p>
+    </footer>
+</body>
+</html>

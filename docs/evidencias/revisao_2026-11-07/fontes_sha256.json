@@ -1,0 +1,54 @@
+[
+    {
+        "sha256":  "549D775C47CD766AF6785D741B05EEDA5B56EC380A54765F182BC52BFFFAECDF",
+        "arquivo":  "agendamentos.html"
+    },
+    {
+        "sha256":  "F7B33361A9845313F211CE6BDC16A68C26B44586757DEEEA3308A281F16191AC",
+        "arquivo":  "avaliacoes.html"
+    },
+    {
+        "sha256":  "850CF9EB76D7EF1BD155B29010873646E3FCEE1F56A3D77D1CC7E0FF660043BD",
+        "arquivo":  "contato.html"
+    },
+    {
+        "sha256":  "3A959E921274A348B63CA25B69046DBA0CDDB924AA8395D3FAD3E408C2788AB6",
+        "arquivo":  "equipe.html"
+    },
+    {
+        "sha256":  "AB377A24968F4DC2E44ECDAEF8EB003959BCF05C5310C07B843CEFF7CE192DBA",
+        "arquivo":  "galeria.html"
+    },
+    {
+        "sha256":  "9F5E84A0E5399BA5F4CD0E728381589569F3B75196AFEF6AECA3615A5D886FB9",
+        "arquivo":  "home.html"
+    },
+    {
+        "sha256":  "5FD281C4416923F00E7160C6B1E0C57FE2E1D9775691CA4EB1EF0FCB236433FD",
+        "arquivo":  "login.html"
+    },
+    {
+        "sha256":  "207E768B0C985900F31860F98DC68E00841B98880DE7252F844BA157F00B0FAD",
+        "arquivo":  "minha-conta.html"
+    },
+    {
+        "sha256":  "326665B960D24D0D544C22F979964E18735CFFA0F9730CF5CC1BC4192CE9ECA2",
+        "arquivo":  "servicos.html"
+    },
+    {
+        "sha256":  "FF3DE74B6836DD80C5D7B3AC036A77720E6796ABFD672E797BBE3168D16EDA77",
+        "arquivo":  "sobre.html"
+    },
+    {
+        "sha256":  "D6FBFC8B31D3933A6F4C317F7C0DFC95F5ADFBD12D3F372BD7C5F5B2AC69091E",
+        "arquivo":  "css/style.css"
+    },
+    {
+        "sha256":  "5E1D87CB361A5BFAFC84C613DA7A6A3B1ABE7E42309693937750FFD53A60B550",
+        "arquivo":  "img/logo_studioxxi.jpg"
+    },
+    {
+        "sha256":  "9110E484DA900304A33ED5AA421E814E4CDA8072DD76EEDF29FE9B51AC2216FA",
+        "arquivo":  "img/logo_studioxxi_transparente.png"
+    }
+]

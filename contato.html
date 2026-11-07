@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Studio XXI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="home.html" aria-label="Página inicial">
+            <img src="img/logo_studioxxi_transparente.png" alt="Logo da Barbearia Studio XXI">
+        </a>
+
+        <nav aria-label="Menu principal">
+            <a href="home.html">Home</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="agendamentos.html">Agendamentos</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="avaliacoes.html">Avaliações</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html" aria-current="page">Contato</a>
+            <a href="login.html">Entrar</a>
+            <a href="minha-conta.html">Minha conta</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Faixa de título (igual em todas as páginas). -->
+        <section class="faixa-titulo">
+            <h1>Contato</h1>
+            <p>Localizado em Artur Alvim, o Studio XXI oferece um ambiente exclusivo para homens que não abrem mão de qualidade, conforto e um atendimento impecável.</p>
+        </section>
+
+        <!-- Endereço e e-mail. O telefone ainda não foi informado pelo estúdio. -->
+        <section class="bloco">
+            <h2>Onde estamos</h2>
+            <address>
+                Studio XXI · Barbearia<br>
+                R. Maciel Monteiro, 526, Sala 03<br>
+                Vila Santa Teresa, São Paulo - SP, 03566-000
+            </address>
+            <p><strong>E-mail:</strong> studioXXI@gamil.com</p>
+        </section>
+
+        <!-- Tabela de horários com título (caption), cabeçalho (thead) e corpo (tbody). -->
+        <section>
+            <table>
+                <caption>Horário de funcionamento</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Dia</th>
+                        <th scope="col">Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda a quinta</td>
+                        <td>14h às 21h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta</td>
+                        <td>10h às 21h</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>10h às 21h</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>Fechado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Mapa do Google. O title descreve o mapa para leitores de tela; o tamanho vem do CSS. -->
+        <section>
+            <h2>Como chegar</h2>
+            <iframe title="Mapa da Studio XXI" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7859408743134!2d-46.4940045249163!3d-23.54020027881441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67339324f6c9%3A0xe07845d2a4a23024!2sR.%20Maciel%20Monteiro%2C%20526%20-%20Parque%20Artur%20Alvim%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003566-000!5e0!3m2!1spt-BR!2sbr!4v1790651400613!5m2!1spt-BR!2sbr" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </section>
+
+        <!-- Formulário de mensagem. Sem servidor, ele só recarrega esta página com os dados na URL. -->
+        <section>
+            <h2>Mande uma mensagem</h2>
+            <form action="contato.html" method="get">
+                <label for="contato_nome">Nome</label>
+                <input type="text" id="contato_nome" name="nome" placeholder="Digite seu nome" required>
+
+                <label for="contato_email">E-mail</label>
+                <input type="email" id="contato_email" name="email" placeholder="exemplo@dominio.com" required>
+
+                <label for="contato_telefone">Telefone</label>
+                <input type="tel" id="contato_telefone" name="telefone" placeholder="(11) 91234-5678" pattern="\(\d{2}\) \d{4,5}-\d{4}" title="Digite no formato (11) 91234-5678">
+
+                <!-- Rádio: só uma opção. O required em uma delas obriga a escolher alguma. -->
+                <fieldset>
+                    <legend>Como prefere receber a resposta?</legend>
+                    <label><input type="radio" name="forma_contato" value="email" required> E-mail</label>
+                    <label><input type="radio" name="forma_contato" value="telefone"> Telefone</label>
+                    <label><input type="radio" name="forma_contato" value="whatsapp"> WhatsApp</label>
+                </fieldset>
+
+                <label for="contato_periodo">Período preferido para atendimento</label>
+                <select id="contato_periodo" name="periodo">
+                    <option value="manha">Manhã (sexta e sábado)</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select>
+
+                <label for="contato_mensagem">Mensagem</label>
+                <textarea id="contato_mensagem" name="mensagem" rows="6" placeholder="Deixe suas perguntas, comentários e sugestões" required></textarea>
+
+                <button class="botao" type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé igual em todas as páginas. -->
+    <footer>
+        <p>Barbearia Studio XXI · R. Maciel Monteiro, 526, Sala 03 · Vila Santa Teresa, São Paulo - SP</p>
+        <p>Segunda a quinta: 14h às 21h · Sexta e sábado: 10h às 21h · Domingo: fechado</p>
+        <p>Pagamento: Pix e cartões</p>
+        <p>Projeto acadêmico de Desenvolvimento Front-End para Web.</p>
+    </footer>
+</body>
+</html>
