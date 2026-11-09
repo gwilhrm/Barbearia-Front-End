@@ -4,13 +4,13 @@
 
 ### Revisão complementar no navegador — evidências novas
 
-Foram preservados os quatro PNGs e o JSON de 04/10, com conferência SHA-256. A revisão atual reúne **10 capturas para computador** no Edge, além dos relatórios de inspeção, validação HTML5 e navegação. As evidências antigas são históricas e não representam a interface atual.
+Foram preservados os quatro PNGs e o JSON de 04/10. A revisão atual reúne **10 capturas para computador** no Edge. As evidências antigas são históricas e não representam a interface atual.
 
-Consulte o [relatório com todas as capturas e resultados](evidencias/revisao_2026-11-07_navegador/README.md). As 10 páginas foram verificadas em janela de 1280 × 1000 px. As 136 referências locais existem; os testes de validade dos campos retornaram os resultados esperados para os casos registrados.
+Consulte as [capturas das 10 páginas](evidencias/revisao_2026-11-07/README.md), feitas em janela de 1280 × 1000 px. As verificações realizadas estão registradas neste documento.
 
 O escopo desta entrega é o uso no computador. As evidências novas e o checklist se concentram nesse uso.
 
-Os resultados automatizados complementam o checklist manual abaixo. W3C, navegação completa por teclado e carregamento externo do mapa continuam pendentes. A automação usa JavaScript pelo navegador, sem adicionar scripts ao site.
+As verificações anteriores complementam o checklist manual abaixo. W3C, navegação completa por teclado e carregamento externo do mapa continuam pendentes.
 
 ### Conferência automática executada
 
@@ -83,8 +83,8 @@ Marcar cada item depois de testar e registrar o resultado na tabela de evidênci
 
 | Data | Página ou escopo | Procedimento | Resultado observado | Arquivo da evidência |
 | --- | --- | --- | --- | --- |
-| 07/11/2026 | 10 páginas no computador | 10 capturas completas no Edge; janela de 1280 × 1000 px | Nenhuma página com rolagem horizontal na largura testada | [Relatório e capturas atuais](evidencias/revisao_2026-11-07_navegador/README.md) |
-| 07/11/2026 | Formulários e fluxo | API de validade HTML5, envio real do cadastro e agendamento, clique nos botões Agendar e Sair | Casos inválidos rejeitados; senhas ausentes da URL; limitações conhecidas confirmadas | [Resultados JSON](evidencias/revisao_2026-11-07_navegador/formularios_fluxo.json) |
+| 07/11/2026 | 10 páginas no computador | 10 capturas completas no Edge; janela de 1280 × 1000 px | Nenhuma página com rolagem horizontal na largura testada | [Capturas atuais](evidencias/revisao_2026-11-07/README.md) |
+| 07/11/2026 | Formulários e fluxo | API de validade HTML5, envio real do cadastro e agendamento, clique nos botões Agendar e Sair | Casos inválidos rejeitados; senhas ausentes da URL; limitações conhecidas confirmadas | Resultado registrado neste documento |
 | 07/11/2026 | 10 HTMLs do site | Conferência automática de estrutura, referências, IDs, labels e formulários | Sem referências quebradas, IDs duplicados ou campos sem `name` (exceto senhas) | Resultado registrado nesta página |
 | 04/10/2026 | HTMLs do site | Inspeção automatizada de referências, campos, IDs e marcação | 10 páginas na raiz; 133 referências locais, uma ausente | [Relatório JSON](evidencias/revisao_2026-10-04.json) |
 | 04/10/2026 | Home | Captura no Edge em 1280 × 1000 | Banner, botão e cartões | [Home](evidencias/home_1280.png) |
@@ -92,7 +92,7 @@ Marcar cada item depois de testar e registrar o resultado na tabela de evidênci
 | 04/10/2026 | Agendamentos | Captura no Edge em 1280 × 1000 | Campos com aparência padrão | [Agendamentos](evidencias/agendamentos_1280.png) |
 | 04/10/2026 | Login | Captura no Edge em 500 × 1300 | Menu em linhas; cadastro com aparência padrão | [Login](evidencias/login_500.png) |
 
-As capturas de 04/10 mostram a versão antiga do site e ficam como histórico. As 10 capturas para computador de 07/11 estão em uma pasta separada e representam o estado atual. Os testes manuais ainda pendentes estão indicados no relatório complementar.
+As capturas de 04/10 mostram a versão antiga do site e ficam como histórico. As 10 capturas para computador de 07/11 estão em uma única pasta. Os testes manuais ainda pendentes estão indicados no checklist acima.
 
 ## Histórico
 

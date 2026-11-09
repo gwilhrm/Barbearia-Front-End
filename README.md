@@ -42,7 +42,6 @@ BarbeariaXXI/
     ├── diario_de_bordo.md
     ├── testes_validacoes.md
     ├── orcamento_hospedagem.html
-    ├── gerar_evidencias.ps1 automação de capturas e verificações no Edge
     └── evidencias/        histórico de 04/10 e nova revisão de 07/11/2026
 ```
 
@@ -85,14 +84,13 @@ Com `method="get"`, os dados aparecem na barra de endereço. Por isso **os campo
 
 ## CSS
 
-A folha [css/style.css](css/style.css) é dividida em 8 partes numeradas (variáveis, base, cabeçalho e menu, componentes, formulários, tabelas e mapa, rodapé, celular), com um comentário acima de cada bloco. Técnicas usadas:
+A folha [css/style.css](css/style.css) é dividida em 7 partes numeradas (variáveis, base, cabeçalho e menu, componentes, formulários, tabelas e mapa, rodapé), com um comentário acima de cada bloco. Técnicas usadas:
 
 - **Variáveis** em `:root` para as cores.
 - **Herança:** `font-family`, `color` e `line-height` ficam só no `body`.
 - **Regras direto nos elementos** (`main`, `form`, `label`, `input`, `table`...), sem classes por página.
 - **Poucos componentes reutilizáveis:** `.faixa-titulo`, `.botao`, `.grade`, `.card`, `.bloco`, `.destaque`, `.foto-em-breve` e `.aviso`.
 - **Seletores agrupados** com vírgula (ex.: `.botao:hover, .botao:focus-visible`).
-- **`@media (max-width: 600px)`** para celular: o menu quebra em várias linhas (sem botão de menu, que precisaria de JavaScript).
 
 ## Ligação com o projeto de Modelagem de Dados
 
@@ -124,22 +122,22 @@ Várias hospedagens gratuitas abrem `index.html` como página inicial, e a nossa
 
 | Nome completo | RGM | Responsabilidades |
 | --- | --- | --- |
-| Andressa Fischer Ruksenas Pires | 46829032 | A preencher |
-| Bruno dos Santos Sanches | 47549327 | A preencher |
-| Felipe Tavares da Costa | 47159774 | A preencher |
-| Guilherme Pinheiro Paulino | 47679794 | A preencher |
-| Gustavo Alexander Mamani Almoguera | 47625601 | A preencher |
-| Lucas Castro da Silva | 47674415 | A preencher |
-| Pedro Kimbembi Luzayadio | 47009608 | A preencher |
-| Rodrigo de Melo Vieira | 49573152 | A preencher |
-| Victor Vincenzo Frederico | 49575236 | A preencher |
-| Vitória Cristina Martins Costa | 47534222 | A preencher |
+| Andressa Fischer Ruksenas Pires | 46829032 | Contribuiu no desenvolvimento Front-End da aplicação, com foco na arquitetura de informação, na estruturação do esqueleto visual e na marcação semântica das páginas utilizando HTML5. |
+| Bruno dos Santos Sanches | 47549327 | Atuou como líder do grupo e foi responsável pela elaboração do diário de bordo. |
+| Felipe Tavares da Costa | 47159774 | Participou da montagem do esqueleto das páginas com HTML5, ajudando na organização de blocos de conteúdo como cabeçalhos, seções e rodapés, além de estruturar os formulários e campos de entrada de dados. |
+| Guilherme Pinheiro Paulino | 47679794 | Criou os arquivos HTML das 10 páginas com uma estrutura básica inicial para o desenvolvimento pelo grupo. Contribuiu com parte do CSS de todas as páginas, ajudou com ideias para a página de Login e sugeriu separar os campos de data e horário em Agendamentos, que antes estavam juntos. |
+| Gustavo Alexander Mamani Almoguera | 47625601 | Prestou apoio básico no desenvolvimento Front-End Web, auxiliando em pequenas alterações no código HTML e CSS. |
+| Lucas Castro da Silva | 47674415 | Participou do mapeamento e planejamento das 10 páginas navegáveis, sugeriu conteúdos, cores e ideias para o design do site, colaborou na edição da página inicial e criou um protótipo para verificar a divisão das páginas e a organização dos conteúdos. |
+| Pedro Kimbembi Luzayadio | 47009608 | Contribuiu no desenvolvimento e na revisão do front-end da aplicação, com participação na estruturação das páginas HTML, na organização das interfaces, na implementação e revisão do fluxo de navegação e dos formulários de agendamento, além de testes e validação da apresentação e do funcionamento das páginas. |
+| Rodrigo de Melo Vieira | 49573152 | Participou da elaboração da estrutura da página de formulário, utilizando a tag `<form>` para organizar a entrada de dados. |
+| Victor Vincenzo Frederico | 49575236 | Começou a página de Serviços, colocou o mapa na página de Contato, trabalhou na página de Login e criou a ideia das estrelas na página de Avaliações. Desde 14/09/2026, data da última mensagem dele no grupo, não houve mais contato.|
+| Vitória Cristina Martins Costa | 47534222 | Contribuiu com o levantamento e a organização das informações para o site e com a criação e estruturação do conteúdo da seção “Quem Somos”. |
 
 ## Documentação
 
 - [Diário de bordo](docs/diario_de_bordo.md)
 - [Testes e validações](docs/testes_validacoes.md)
-- [Evidências atuais: 10 capturas no computador e resultados da revisão de 07/11](docs/evidencias/revisao_2026-11-07_navegador/README.md)
+- [Evidências: 10 capturas no computador de 07/11](docs/evidencias/revisao_2026-11-07/README.md)
 - [Orçamento de hospedagem e domínio](docs/orcamento_hospedagem.html)
 
 ## Entrega

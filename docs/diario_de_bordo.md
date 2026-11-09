@@ -23,7 +23,7 @@
 
 ### Aprendizados e dificuldades dos integrantes
 
-A preencher pelo grupo com a experiência real de cada etapa.
+A organização inicial mostrou a importância de separar as páginas do site, os estilos, as imagens e a documentação em pastas próprias. As principais dificuldades registradas foram delimitar as 10 páginas do projeto, planejar o conteúdo de cada uma e comparar planos de hospedagem com limites diferentes.
 
 ## 25/09/2026 — Revisão do escopo
 
@@ -67,7 +67,7 @@ Nesta etapa, foram alterados apenas documentos e acrescentadas evidências de ve
 
 Trabalho feito em etapas, com conferência no Live Preview ao final de cada uma. Antes de começar, foi feito um backup da pasta inteira em `BarbeariaXXI_backup_2026-11-07` (pasta ao lado do projeto).
 
-1. **CSS reescrito:** variáveis em `:root`, herança no `body`, regras direto nos elementos, componentes reutilizáveis (`.faixa-titulo`, `.botao`, `.grade`, `.card`, `.bloco`) e um `@media` para celular. As classes por página (`.home`, `.pagina-formulario`) deixaram de existir. O arquivo terminou com 331 linhas (282 com conteúdo).
+1. **CSS reescrito:** variáveis em `:root`, herança no `body`, regras direto nos elementos e componentes reutilizáveis (`.faixa-titulo`, `.botao`, `.grade`, `.card`, `.bloco`). As classes por página (`.home`, `.pagina-formulario`) deixaram de existir. O projeto foi mantido com foco em telas de computador.
 2. **Estrutura das 10 páginas:** mesmo menu, mesma faixa de título e mesmo rodapé em todas; `align="center"` removido. Criada `minha-conta.html` e apagada `clientes.html`.
 3. **Fluxo de agendamento:** Entrar (dois formulários) → Agendamentos → Minha conta.
 4. **Conteúdo:** preços novos com "R$", horário único, Equipe só com o fundador, caixas "Foto em breve" em Serviços e Galeria, 4 avaliações fictícias identificadas, Contato com `title` no mapa e formulário completo, Sobre reorganizado em blocos.
@@ -88,26 +88,26 @@ A entrada de 04/10/2026 diz que o README foi transferido para a raiz, mas o arqu
 
 ### Situação de cada mudança
 
-Legenda: **Sugerido** = proposto na revisão · **Incorporado** = já está nos arquivos · **Testado por nós** = preencher pelo grupo depois de testar · **Professor** = vale confirmar com o professor.
+Legenda: **Sugerido** = proposto na revisão · **Incorporado** = já está nos arquivos · **Verificação realizada** = conferência no código, captura no computador ou teste automático já executado · **Professor** = vale confirmar com o professor. A coluna de verificação foi atualizada em 08/11/2026 com base nas revisões registradas; não representa uma confirmação de teste manual por todos os integrantes.
 
-| Mudança | Sugerido | Incorporado | Testado por nós | Confirmar com o professor |
+| Mudança | Sugerido | Incorporado | Verificação realizada | Confirmar com o professor |
 | --- | --- | --- | --- | --- |
-| CSS único com variáveis e componentes | Sim | Sim | A preencher | — |
-| Menu, faixa de título e rodapé iguais nas 10 páginas | Sim | Sim | A preencher | — |
-| `minha-conta.html` no lugar de `clientes.html` | Sim | Sim | A preencher | Sim (troca de página) |
-| Login com "Já tenho conta" e "Criar conta" | Sim | Sim | A preencher | — |
-| Senhas sem `name` (não aparecem na URL) | Sim | Sim | A preencher | — |
-| Agendamento com checkbox, data, horário e `pattern` | Sim | Sim | A preencher | — |
-| Regras RN05, RN07 e RN22 explicadas no site | Sim | Sim | A preencher | — |
-| Preços novos com "R$" | Sim | Sim | A preencher | — |
-| Horário único | Sim | Sim | A preencher | — |
-| Equipe só com o fundador | Sim | Sim | A preencher | — |
-| "Foto em breve" em Serviços, Galeria e Equipe | Sim | Sim | A preencher | — |
-| Avaliações fictícias identificadas | Sim | Sim | A preencher | — |
-| Telefone removido do Contato | Sim | Sim | A preencher | — |
-| Mapa com `title` e tamanho pelo CSS | Sim | Sim | A preencher | — |
+| CSS único com variáveis e componentes | Sim | Sim | Código e capturas das 10 páginas conferidos | — |
+| Menu, faixa de título e rodapé iguais nas 10 páginas | Sim | Sim | Estrutura e capturas conferidas no computador | — |
+| `minha-conta.html` no lugar de `clientes.html` | Sim | Sim | Arquivos e navegação para Minha conta conferidos | Sim (troca de página) |
+| Login com "Já tenho conta" e "Criar conta" | Sim | Sim | Dois formulários conferidos; campos obrigatórios testados automaticamente | — |
+| Senhas sem `name` (não aparecem na URL) | Sim | Sim | Envio do cadastro testado; senha ausente da URL | — |
+| Agendamento com checkbox, data, horário e `pattern` | Sim | Sim | Código conferido; limites de horário e formato de telefone testados automaticamente | — |
+| Regras RN05, RN07 e RN22 explicadas no site | Sim | Sim | Textos, checkboxes e preço do combo conferidos; sem cálculo dinâmico | — |
+| Preços novos com "R$" | Sim | Sim | Valores conferidos em Home, Serviços e Agendamentos | — |
+| Horário único | Sim | Sim | Informações de funcionamento conferidas nas páginas e nos rodapés | — |
+| Equipe só com o fundador | Sim | Sim | Conteúdo da página Equipe conferido | — |
+| "Foto em breve" em Serviços, Galeria e Equipe | Sim | Sim | Presença das caixas conferida no código e nas capturas | — |
+| Avaliações fictícias identificadas | Sim | Sim | Quatro avaliações e aviso de conteúdo fictício conferidos | — |
+| Número de telefone do estúdio removido do Contato | Sim | Sim | Conteúdo conferido; o campo de telefone do visitante permanece no formulário | — |
+| Mapa com `title` e tamanho pelo CSS | Sim | Sim | Atributos e estilos conferidos; carregamento externo ainda pendente | — |
 | Ausência de vídeo e áudio | — | — | — | Sim (rubrica de mídia) |
-| Página inicial `home.html` na hospedagem | Sim | Não (só registrado) | — | Sim |
+| Página inicial `home.html` na hospedagem | Sim | Sim, na Vercel | Em 08/11, a raiz publicada abriu a Home; as 10 páginas e o CSS responderam corretamente | — |
 
 ### Dificuldades e soluções
 
@@ -117,11 +117,16 @@ Legenda: **Sugerido** = proposto na revisão · **Incorporado** = já está nos 
 
 ### Aprendizados dos integrantes
 
-A preencher pelo grupo.
+Os aprendizados abaixo sintetizam as atividades e dificuldades registradas no projeto:
+
+- **HTML e navegação:** organizar o conteúdo com elementos semânticos, planejar as 10 páginas e manter os links do menu consistentes.
+- **CSS compartilhado:** reutilizar cores, estilos e componentes para manter a mesma identidade visual sem repetir uma folha de estilos para cada página.
+- **Formulários:** associar labels aos campos, aplicar validações nativas do HTML5 e separar data e horário para organizar o preenchimento. Também foi necessário reconhecer os limites de uma interface sem JavaScript ou servidor.
+- **Trabalho em grupo e revisão:** reunir as contribuições no README, registrar decisões no diário e conferir páginas, formulários e apresentação visual antes da entrega.
 
 ### Próximos passos
 
-- Executar os testes listados em [testes_validacoes.md](testes_validacoes.md) e preencher a coluna "Testado por nós".
+- Concluir os itens manuais pendentes em [testes_validacoes.md](testes_validacoes.md), incluindo teclado e carregamento do mapa.
 - Gerar o .zip depois da revisão final do grupo.
 
 ## Modelo para novos registros

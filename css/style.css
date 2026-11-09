@@ -305,30 +305,3 @@ footer {
 footer p {
     margin: 4px 0;
 }
-
-/* CELULAR */
-
-/* Ajustes para telas de até 600px */
-@media (max-width: 600px) {
-    /* No celular o cabeçalho não fica fixo, senão ocupa muito espaço */
-    header {
-        position: static;
-    }
-
-    /* Menos espaço dentro da faixa e dos formulários */
-    .faixa-titulo,
-    form {
-        padding: 20px;
-    }
-
-    /* Título menor */
-    .faixa-titulo h1 {
-        font-size: 28px;
-    }
-
-    /* Links do menu menores */
-    nav a {
-        padding: 6px 8px;
-        font-size: 14px;
-    }
-}
